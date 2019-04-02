@@ -3,6 +3,7 @@ import React, {
   useEffect,
 } from 'react';
 import {
+  Person,
   signUserOut,
   loadUserData,
   isUserSignedIn,
@@ -26,14 +27,13 @@ const App = () => {
   const verifyAuthStatus = async () => {
     if (isUserSignedIn()) {
       const { profile } = loadUserData();
-      setUser(profile);
+      setUser(new Person(profile));
     } else if (isSignInPending()) {
       try {
         const { profile } = await handlePendingSignIn();
-        setUser(profile);
+        setUser(new Person(profile));
       } catch (e) {
-        console.error(e);
-        alert('obi-c has some problems');
+        console.warn(e);
       }
     }
   };
