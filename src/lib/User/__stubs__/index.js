@@ -2,6 +2,7 @@ import User from '../';
 import difference from 'lodash/difference';
 
 const VALID_PROPS = [
+  'id',
   'name',
 ];
 

@@ -6,4 +6,10 @@ describe('User', () => {
     const user = stubUser({ name });
     expect(user.name).toBe(name);
   });
+
+  it('should allow the assignement of an id', () => {
+    const id = '8675309';
+    const user = stubUser({ id });
+    expect(user.id).toBe(id);
+  });
 });

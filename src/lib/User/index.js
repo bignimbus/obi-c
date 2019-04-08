@@ -2,9 +2,10 @@ import Model from '../Model';
 
 class User extends Model {
   init ({
+    id,
     name,
   }) {
-    Object.assign(this, { name });
+    Object.assign(this, { id, name });
   }
 }
 
