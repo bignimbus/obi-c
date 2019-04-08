@@ -1,6 +1,6 @@
 import Model from '../Model';
 
-class Event extends Model {
+class CalendarEvent extends Model {
   init ({
     endTime,
     startTime,
@@ -20,4 +20,4 @@ class Event extends Model {
   }
 }
 
-export default Event;
+export default CalendarEvent;
