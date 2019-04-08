@@ -11,7 +11,7 @@ import {
   redirectToSignIn,
   handlePendingSignIn,
 } from 'blockstack';
-import './App.css';
+import './index.css';
 
 const App = () => {
   const [user, setUser] = useState(null);
