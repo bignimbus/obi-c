@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppMenu #render authenticated user 1`] = `
+<div
+  className="app-menu"
+>
+  <nav
+    className="app-menu__nav"
+  >
+    <header
+      className="app-menu__header"
+    >
+      <div>
+        Jeff
+      </div>
+    </header>
+    <section
+      className="app-menu__section"
+    >
+      <ul
+        className="app-menu__ul"
+      >
+        <li
+          className="app-menu__li"
+        >
+          <a
+            href="/remind"
+            onClick={[Function]}
+          >
+            Remind me
+          </a>
+        </li>
+        <li
+          className="app-menu__li"
+        >
+          <a
+            href="/feed"
+            onClick={[Function]}
+          >
+            Feed obi-c
+          </a>
+        </li>
+        <li
+          className="app-menu__li"
+        >
+          <a
+            href="/play"
+            onClick={[Function]}
+          >
+            Play with obi-c
+          </a>
+        </li>
+      </ul>
+    </section>
+  </nav>
+</div>
+`;
+
+exports[`AppMenu #render authenticated user fetching data 1`] = `
+<div
+  className="app-menu"
+>
+  <nav
+    className="app-menu__nav"
+  >
+    <header
+      className="app-menu__header"
+    >
+      <div>
+        <section>
+          <button
+            disabled={true}
+            onClick={[MockFunction]}
+          >
+            <span>
+              Connecting to Blockstack...
+            </span>
+          </button>
+        </section>
+        <footer>
+          <button>
+            Learn more
+          </button>
+        </footer>
+      </div>
+    </header>
+    <section
+      className="app-menu__section"
+    >
+      <ul
+        className="app-menu__ul"
+      >
+        <li
+          className="app-menu__li"
+        >
+          <a
+            href="/remind"
+            onClick={[Function]}
+          >
+            Remind me
+          </a>
+        </li>
+        <li
+          className="app-menu__li"
+        >
+          <a
+            href="/feed"
+            onClick={[Function]}
+          >
+            Feed obi-c
+          </a>
+        </li>
+        <li
+          className="app-menu__li"
+        >
+          <a
+            href="/play"
+            onClick={[Function]}
+          >
+            Play with obi-c
+          </a>
+        </li>
+      </ul>
+    </section>
+  </nav>
+</div>
+`;
+
+exports[`AppMenu #render unauthenticated user 1`] = `
+<div
+  className="app-menu"
+>
+  <nav
+    className="app-menu__nav"
+  >
+    <header
+      className="app-menu__header"
+    >
+      <div>
+        <section>
+          <button
+            disabled={false}
+            onClick={[MockFunction]}
+          >
+            <span>
+              Connect to Blockstack
+            </span>
+          </button>
+        </section>
+        <footer>
+          <button>
+            Learn more
+          </button>
+        </footer>
+      </div>
+    </header>
+    <section
+      className="app-menu__section"
+    >
+      <ul
+        className="app-menu__ul"
+      >
+        <li
+          className="app-menu__li"
+        >
+          <a
+            href="/remind"
+            onClick={[Function]}
+          >
+            Remind me
+          </a>
+        </li>
+        <li
+          className="app-menu__li"
+        >
+          <a
+            href="/feed"
+            onClick={[Function]}
+          >
+            Feed obi-c
+          </a>
+        </li>
+        <li
+          className="app-menu__li"
+        >
+          <a
+            href="/play"
+            onClick={[Function]}
+          >
+            Play with obi-c
+          </a>
+        </li>
+      </ul>
+    </section>
+  </nav>
+</div>
+`;

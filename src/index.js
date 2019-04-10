@@ -1,9 +1,19 @@
+import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './components/App';
+import { BlockstackContextProvider } from './contexts/BlockstackContext';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const AppWithContext = () => (
+  <BlockstackContextProvider>
+    <App />
+  </BlockstackContextProvider>
+);
+
+ReactDOM.render(
+  <AppWithContext />,
+  document.getElementById('root'),
+);
 
 serviceWorker.register();

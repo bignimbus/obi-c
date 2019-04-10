@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Routes / 1`] = `
+<div
+  aria-label="Tap anywhere to open menu"
+  className="home"
+  onClick={[Function]}
+  role="button"
+  tabIndex="0"
+>
+  <section
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <div
+      className="app-menu"
+    >
+      <nav
+        className="app-menu__nav"
+      >
+        <header
+          className="app-menu__header"
+        >
+          <div>
+            <section>
+              <button
+                disabled={false}
+                onClick={[MockFunction]}
+              >
+                <span>
+                  Connect to Blockstack
+                </span>
+              </button>
+            </section>
+            <footer>
+              <button>
+                Learn more
+              </button>
+            </footer>
+          </div>
+        </header>
+        <section
+          className="app-menu__section"
+        >
+          <ul
+            className="app-menu__ul"
+          >
+            <li
+              className="app-menu__li"
+            >
+              <a
+                href="/remind"
+                onClick={[Function]}
+              >
+                Remind me
+              </a>
+            </li>
+            <li
+              className="app-menu__li"
+            >
+              <a
+                href="/feed"
+                onClick={[Function]}
+              >
+                Feed obi-c
+              </a>
+            </li>
+            <li
+              className="app-menu__li"
+            >
+              <a
+                href="/play"
+                onClick={[Function]}
+              >
+                Play with obi-c
+              </a>
+            </li>
+          </ul>
+        </section>
+      </nav>
+    </div>
+  </section>
+  <section>
+    Home
+  </section>
+</div>
+`;
+
+exports[`Routes /menu 1`] = `
+<div
+  aria-label="Tap anywhere to open menu"
+  className="home"
+  onClick={[Function]}
+  role="button"
+  tabIndex="0"
+>
+  <section
+    style={
+      Object {
+        "display": "block",
+      }
+    }
+  >
+    <div
+      className="app-menu"
+    >
+      <nav
+        className="app-menu__nav"
+      >
+        <header
+          className="app-menu__header"
+        >
+          <div>
+            <section>
+              <button
+                disabled={false}
+                onClick={[MockFunction]}
+              >
+                <span>
+                  Connect to Blockstack
+                </span>
+              </button>
+            </section>
+            <footer>
+              <button>
+                Learn more
+              </button>
+            </footer>
+          </div>
+        </header>
+        <section
+          className="app-menu__section"
+        >
+          <ul
+            className="app-menu__ul"
+          >
+            <li
+              className="app-menu__li"
+            >
+              <a
+                href="/remind"
+                onClick={[Function]}
+              >
+                Remind me
+              </a>
+            </li>
+            <li
+              className="app-menu__li"
+            >
+              <a
+                href="/feed"
+                onClick={[Function]}
+              >
+                Feed obi-c
+              </a>
+            </li>
+            <li
+              className="app-menu__li"
+            >
+              <a
+                href="/play"
+                onClick={[Function]}
+              >
+                Play with obi-c
+              </a>
+            </li>
+          </ul>
+        </section>
+      </nav>
+    </div>
+  </section>
+  <section>
+    Home
+  </section>
+</div>
+`;
