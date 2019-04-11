@@ -2,546 +2,742 @@
 
 exports[`Avatar default 1`] = `
 <div
-  className="avatar"
+  className="avatar avatar--waiting"
 >
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--head"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 1",
-        "top": "calc(100% / 13 * 1)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "8.333333333333334%",
+        "top": "7.6923076923076925%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--head"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 1",
-        "top": "calc(100% / 13 * 2)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "8.333333333333334%",
+        "top": "15.384615384615385%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--head"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 1",
-        "top": "calc(100% / 13 * 3)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "8.333333333333334%",
+        "top": "23.076923076923077%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--head"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 1",
-        "top": "calc(100% / 13 * 4)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "8.333333333333334%",
+        "top": "30.76923076923077%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--head"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 1",
-        "top": "calc(100% / 13 * 5)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "8.333333333333334%",
+        "top": "38.46153846153846%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--head"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 1",
-        "top": "calc(100% / 13 * 6)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "8.333333333333334%",
+        "top": "46.15384615384615%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--head"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 10",
-        "top": "calc(100% / 13 * 1)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "83.33333333333334%",
+        "top": "7.6923076923076925%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--head"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 10",
-        "top": "calc(100% / 13 * 2)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "83.33333333333334%",
+        "top": "15.384615384615385%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--head"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 10",
-        "top": "calc(100% / 13 * 3)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "83.33333333333334%",
+        "top": "23.076923076923077%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--head"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 10",
-        "top": "calc(100% / 13 * 4)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "83.33333333333334%",
+        "top": "30.76923076923077%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--head"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 10",
-        "top": "calc(100% / 13 * 5)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "83.33333333333334%",
+        "top": "38.46153846153846%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--head"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 10",
-        "top": "calc(100% / 13 * 6)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "83.33333333333334%",
+        "top": "46.15384615384615%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--head"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 2",
-        "top": "calc(100% / 13 * 0)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "16.666666666666668%",
+        "top": "0%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--head"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 3",
-        "top": "calc(100% / 13 * 0)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "25%",
+        "top": "0%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--head"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 4",
-        "top": "calc(100% / 13 * 0)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "33.333333333333336%",
+        "top": "0%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--head"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 5",
-        "top": "calc(100% / 13 * 0)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "41.66666666666667%",
+        "top": "0%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--head"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 6",
-        "top": "calc(100% / 13 * 0)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "50%",
+        "top": "0%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--head"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 7",
-        "top": "calc(100% / 13 * 0)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "58.333333333333336%",
+        "top": "0%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--head"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 8",
-        "top": "calc(100% / 13 * 0)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "66.66666666666667%",
+        "top": "0%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--head"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 9",
-        "top": "calc(100% / 13 * 0)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "75%",
+        "top": "0%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--head"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 4",
-        "top": "calc(100% / 13 * 2)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "16.666666666666668%",
+        "top": "53.84615384615385%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--head"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 6",
-        "top": "calc(100% / 13 * 2)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "25%",
+        "top": "53.84615384615385%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--head"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 7",
-        "top": "calc(100% / 13 * 4)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "33.333333333333336%",
+        "top": "53.84615384615385%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--head"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 6",
-        "top": "calc(100% / 13 * 5)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "41.66666666666667%",
+        "top": "53.84615384615385%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--head"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 5",
-        "top": "calc(100% / 13 * 5)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "50%",
+        "top": "53.84615384615385%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--head"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 4",
-        "top": "calc(100% / 13 * 5)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "58.333333333333336%",
+        "top": "53.84615384615385%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--head"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 3",
-        "top": "calc(100% / 13 * 4)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "66.66666666666667%",
+        "top": "53.84615384615385%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--head"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 2",
-        "top": "calc(100% / 13 * 7)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "75%",
+        "top": "53.84615384615385%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--eyes"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 3",
-        "top": "calc(100% / 13 * 7)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "33.333333333333336%",
+        "top": "15.384615384615385%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--eyes"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 4",
-        "top": "calc(100% / 13 * 7)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "50%",
+        "top": "15.384615384615385%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--mouth"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 5",
-        "top": "calc(100% / 13 * 7)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "58.333333333333336%",
+        "top": "30.76923076923077%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--mouth"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 6",
-        "top": "calc(100% / 13 * 7)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "50%",
+        "top": "38.46153846153846%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--mouth"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 7",
-        "top": "calc(100% / 13 * 7)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "41.66666666666667%",
+        "top": "38.46153846153846%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--mouth"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 8",
-        "top": "calc(100% / 13 * 7)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "33.333333333333336%",
+        "top": "38.46153846153846%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--mouth"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 9",
-        "top": "calc(100% / 13 * 7)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "25%",
+        "top": "30.76923076923077%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--torso"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 5",
-        "top": "calc(100% / 13 * 8)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "41.66666666666667%",
+        "top": "61.53846153846154%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--torso"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 5",
-        "top": "calc(100% / 13 * 9)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "41.66666666666667%",
+        "top": "69.23076923076923%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--torso"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 6",
-        "top": "calc(100% / 13 * 9)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "41.66666666666667%",
+        "top": "76.92307692307692%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--torso"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 7",
-        "top": "calc(100% / 13 * 9)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "41.66666666666667%",
+        "top": "84.61538461538461%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--left-arm"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 4",
-        "top": "calc(100% / 13 * 9)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "33.333333333333336%",
+        "top": "69.23076923076923%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--left-arm"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 3",
-        "top": "calc(100% / 13 * 9)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "25%",
+        "top": "69.23076923076923%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--right-arm"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 5",
-        "top": "calc(100% / 13 * 10)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "50%",
+        "top": "69.23076923076923%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--right-arm"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 5",
-        "top": "calc(100% / 13 * 11)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "58.333333333333336%",
+        "top": "69.23076923076923%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--left-foot"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 6",
-        "top": "calc(100% / 13 * 12)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "33.333333333333336%",
+        "top": "92.3076923076923%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--left-foot"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 7",
-        "top": "calc(100% / 13 * 12)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "25%",
+        "top": "92.3076923076923%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--left-foot"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 8",
-        "top": "calc(100% / 13 * 12)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "16.666666666666668%",
+        "top": "92.3076923076923%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--right-foot"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 4",
-        "top": "calc(100% / 13 * 12)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "50%",
+        "top": "92.3076923076923%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--right-foot"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 3",
-        "top": "calc(100% / 13 * 12)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "58.333333333333336%",
+        "top": "92.3076923076923%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
   <div
-    className="avatar__pixel"
+    className="avatar__pixel avatar__pixel--right-foot"
     style={
       Object {
-        "height": "calc(100% / 13)",
-        "left": "calc(100% / 12 * 2",
-        "top": "calc(100% / 13 * 12)",
-        "width": "calc(100% / 12)",
+        "height": "7.6923076923076925%",
+        "left": "66.66666666666667%",
+        "top": "92.3076923076923%",
+        "width": "8.333333333333334%",
       }
     }
-  />
+  >
+    <div
+      className="avatar__inner-pixel"
+    />
+  </div>
 </div>
 `;

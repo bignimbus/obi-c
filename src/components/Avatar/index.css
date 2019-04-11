@@ -5,17 +5,56 @@
 }
 
 .avatar__pixel {
+  position: absolute;
+}
+
+.avatar__inner-pixel {
   background-color: var(--theme-contrast-color--translucent);
   border: 1px solid var(--theme-contrast-color--translucent);
-  position: absolute;
-  transform: scale(1);
-  transition: transform 50ms;
+  height: 100%;
+  width: 100%;
 }
 
-.avatar__pixel--short {
-  transform: scale(1, 0.5);
+@keyframes blinking {
+  0%,
+  2%,
+  30%,
+  32%,
+  81%,
+  83% {
+    transform: scale(1, 1);
+  }
+
+  1%,
+  31%,
+  82% {
+    transform: scale(1, 0.2);
+  }
 }
 
-.avatar__pixel--narrow {
-  transform: scale(0.5, 1);
+@keyframes looking {
+  0%,
+  55%,
+  67% {
+    transform: translateX(0);
+  }
+
+  56%,
+  66% {
+    transform: translateX(100%);
+  }
+}
+
+.avatar--waiting .avatar__pixel--eyes .avatar__inner-pixel {
+  animation: blinking 10s linear infinite;
+}
+
+.avatar--waiting .avatar__pixel--eyes,
+.avatar--waiting .avatar__pixel--mouth,
+.avatar--waiting .avatar__pixel--torso,
+.avatar--waiting .avatar__pixel--left-arm,
+.avatar--waiting .avatar__pixel--right-arm,
+.avatar--waiting .avatar__pixel--left-foot,
+.avatar--waiting .avatar__pixel--right-foot {
+  animation: looking 10s linear infinite;
 }

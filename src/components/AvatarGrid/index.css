@@ -5,7 +5,13 @@
 }
 
 .grid__avatar {
+  --transition-duration: 100ms;
+  --transition-timing-function: ease-in-out;
   position: absolute;
+  transition: height var(--transition-duration) var(--transition-timing-function),
+    left var(--transition-duration) var(--transition-timing-function),
+    width var(--transition-duration) var(--transition-timing-function),
+    top var(--transition-duration) var(--transition-timing-function);
 }
 
 .grid__row {
