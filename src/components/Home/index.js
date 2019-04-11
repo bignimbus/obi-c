@@ -11,13 +11,11 @@ const Home = ({ history, appMenuOpen }) => (
     className='home'
     aria-label='Tap anywhere to open menu'
     onClick={() => {
-      history.replace('/menu');
+      history.push('/menu');
     }}
   >
     <section
-      style={{
-        display: appMenuOpen ? 'block' : 'none',
-      }}
+      className={`home__menu ${appMenuOpen ? 'home__menu--open' : ''}`}
     >
       <AppMenu />
     </section>
@@ -30,7 +28,7 @@ const Home = ({ history, appMenuOpen }) => (
 Home.propTypes = {
   appMenuOpen: PropTypes.bool,
   history: PropTypes.shape({
-    replace: PropTypes.func.isRequired,
+    push: PropTypes.func.isRequired,
   }).isRequired,
 };
 

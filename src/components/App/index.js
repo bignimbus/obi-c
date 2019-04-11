@@ -3,7 +3,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { default as Routes } from '../Routes';
 
 const App = () => (
-  <div>
+  <div className='__one-hundred-percent'>
     <BrowserRouter>
       <Routes />
     </BrowserRouter>

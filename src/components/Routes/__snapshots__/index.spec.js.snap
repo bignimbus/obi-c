@@ -9,78 +9,82 @@ exports[`Routes / 1`] = `
   tabIndex="0"
 >
   <section
-    style={
-      Object {
-        "display": "none",
-      }
-    }
+    className="home__menu "
   >
     <div
+      aria-label="tap to close menu"
       className="app-menu"
+      onClick={[Function]}
+      role="button"
+      tabIndex="0"
     >
-      <nav
-        className="app-menu__nav"
+      <div
+        className="app-menu__container"
       >
-        <header
-          className="app-menu__header"
+        <nav
+          className="app-menu__nav"
         >
-          <div>
-            <section>
-              <button
-                disabled={false}
-                onClick={[MockFunction]}
-              >
-                <span>
-                  Connect to Blockstack
-                </span>
-              </button>
-            </section>
-            <footer>
-              <button>
-                Learn more
-              </button>
-            </footer>
-          </div>
-        </header>
-        <section
-          className="app-menu__section"
-        >
-          <ul
-            className="app-menu__ul"
+          <header
+            className="app-menu__header"
           >
-            <li
-              className="app-menu__li"
+            <div>
+              <section>
+                <button
+                  disabled={false}
+                  onClick={[MockFunction]}
+                >
+                  <span>
+                    Connect to Blockstack
+                  </span>
+                </button>
+              </section>
+              <footer>
+                <button>
+                  Learn more
+                </button>
+              </footer>
+            </div>
+          </header>
+          <section
+            className="app-menu__section"
+          >
+            <ul
+              className="app-menu__ul"
             >
-              <a
-                href="/remind"
-                onClick={[Function]}
+              <li
+                className="app-menu__li"
               >
-                Remind me
-              </a>
-            </li>
-            <li
-              className="app-menu__li"
-            >
-              <a
-                href="/feed"
-                onClick={[Function]}
+                <a
+                  href="/remind"
+                  onClick={[Function]}
+                >
+                  Remind me
+                </a>
+              </li>
+              <li
+                className="app-menu__li"
               >
-                Feed obi-c
-              </a>
-            </li>
-            <li
-              className="app-menu__li"
-            >
-              <a
-                href="/play"
-                onClick={[Function]}
+                <a
+                  href="/feed"
+                  onClick={[Function]}
+                >
+                  Feed obi-c
+                </a>
+              </li>
+              <li
+                className="app-menu__li"
               >
-                Play with obi-c
-              </a>
-            </li>
-          </ul>
-        </section>
-      </nav>
+                <a
+                  href="/play"
+                  onClick={[Function]}
+                >
+                  Play with obi-c
+                </a>
+              </li>
+            </ul>
+          </section>
+        </nav>
+      </div>
     </div>
   </section>
   <section>
@@ -98,78 +102,82 @@ exports[`Routes /menu 1`] = `
   tabIndex="0"
 >
   <section
-    style={
-      Object {
-        "display": "block",
-      }
-    }
+    className="home__menu home__menu--open"
   >
     <div
+      aria-label="tap to close menu"
       className="app-menu"
+      onClick={[Function]}
+      role="button"
+      tabIndex="0"
     >
-      <nav
-        className="app-menu__nav"
+      <div
+        className="app-menu__container"
       >
-        <header
-          className="app-menu__header"
+        <nav
+          className="app-menu__nav"
         >
-          <div>
-            <section>
-              <button
-                disabled={false}
-                onClick={[MockFunction]}
-              >
-                <span>
-                  Connect to Blockstack
-                </span>
-              </button>
-            </section>
-            <footer>
-              <button>
-                Learn more
-              </button>
-            </footer>
-          </div>
-        </header>
-        <section
-          className="app-menu__section"
-        >
-          <ul
-            className="app-menu__ul"
+          <header
+            className="app-menu__header"
           >
-            <li
-              className="app-menu__li"
+            <div>
+              <section>
+                <button
+                  disabled={false}
+                  onClick={[MockFunction]}
+                >
+                  <span>
+                    Connect to Blockstack
+                  </span>
+                </button>
+              </section>
+              <footer>
+                <button>
+                  Learn more
+                </button>
+              </footer>
+            </div>
+          </header>
+          <section
+            className="app-menu__section"
+          >
+            <ul
+              className="app-menu__ul"
             >
-              <a
-                href="/remind"
-                onClick={[Function]}
+              <li
+                className="app-menu__li"
               >
-                Remind me
-              </a>
-            </li>
-            <li
-              className="app-menu__li"
-            >
-              <a
-                href="/feed"
-                onClick={[Function]}
+                <a
+                  href="/remind"
+                  onClick={[Function]}
+                >
+                  Remind me
+                </a>
+              </li>
+              <li
+                className="app-menu__li"
               >
-                Feed obi-c
-              </a>
-            </li>
-            <li
-              className="app-menu__li"
-            >
-              <a
-                href="/play"
-                onClick={[Function]}
+                <a
+                  href="/feed"
+                  onClick={[Function]}
+                >
+                  Feed obi-c
+                </a>
+              </li>
+              <li
+                className="app-menu__li"
               >
-                Play with obi-c
-              </a>
-            </li>
-          </ul>
-        </section>
-      </nav>
+                <a
+                  href="/play"
+                  onClick={[Function]}
+                >
+                  Play with obi-c
+                </a>
+              </li>
+            </ul>
+          </section>
+        </nav>
+      </div>
     </div>
   </section>
   <section>

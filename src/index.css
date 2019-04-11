@@ -1,7 +1,16 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html,
 body {
-  height: 100%;
   margin: 0;
   padding: 0;
+}
+
+.__one-hundred-percent {
+  height: 100%;
   width: 100%;
 }

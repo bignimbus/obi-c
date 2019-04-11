@@ -1,3 +1,17 @@
 .home {
+  height: 100%;
   outline: none;
+  position: relative;
+  width: 100%;
+}
+
+.home__menu {
+  display: none;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.home__menu--open {
+  display: block;
 }
