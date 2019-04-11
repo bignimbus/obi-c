@@ -5,10 +5,7 @@
 }
 
 .grid__avatar {
-  bottom: calc(50% + 1px);
   position: absolute;
-  right: calc(50% + 1px);
-  transform: translate(50%, 50%);
 }
 
 .grid__row {
