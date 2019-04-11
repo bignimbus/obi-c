@@ -28,4 +28,9 @@ describe('Routes', () => {
     const element = renderComponent('/menu');
     expect(element.toJSON()).toMatchSnapshot();
   });
+
+  test('/test-message', () => {
+    const element = renderComponent('/test-message');
+    expect(element.toJSON()).toMatchSnapshot();
+  });
 });

@@ -2,7 +2,10 @@
 
 exports[`AvatarGrid default 1`] = `
 <div
-  className="grid"
+  className="
+        grid
+        
+      "
 >
   <div
     className="grid__avatar"

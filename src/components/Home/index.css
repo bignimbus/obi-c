@@ -1,12 +1,37 @@
 .home {
-  background-color: var(--theme-color);
   height: 100%;
-  outline: none;
+  max-height: 100%;
   position: relative;
   width: 100%;
 }
 
-.home__menu {
+.home__container {
+  background-color: var(--theme-color);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-height: 100%;
+  outline: none;
+  position: relative;
+  transition: height 250ms linear;
+  width: 100%;
+}
+
+.home__grid {
+  flex: 1 1 50%;
+  transition: flex 250ms linear;
+}
+
+.home__message {
+  background-color: var(--theme-color--darker);
+  flex: 0 1 auto;
+  position: relative;
+  transition: flex 250ms linear;
+  width: 100%;
+}
+
+.home__menu,
+.home__test-message {
   display: none;
   height: 100%;
   left: 0;
@@ -19,6 +44,6 @@
   display: block;
 }
 
-.home__grid {
-  height: 100%;
+.home__test-message--open {
+  display: block;
 }

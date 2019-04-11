@@ -1,30 +1,51 @@
 import './index.css';
-import React, { useState, useEffect } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
 import Avatar, { PIXELS_WIDE, PIXELS_TALL } from '../Avatar';
 
 const pixelCount = dimension => Math.floor(dimension * 0.1067);
 
-const AvatarGrid = () => {
+const AvatarGrid = ({ messageStatus }) => {
+  const container = useRef(null);
+
+  const getDimensions = () => (
+    container && container.current ?
+      { width: container.current.clientWidth, height: container.current.clientHeight } :
+      { width: window.innerWidth, height: window.innerHeight }
+  );
+
   const [pixelCountWide, setPixelCountWide] = useState(
-    pixelCount(window.innerWidth),
+    pixelCount(getDimensions().width),
   );
 
   const [pixelCountTall, setPixelCountTall] = useState(
-    pixelCount(window.innerHeight),
+    pixelCount(getDimensions().height),
   );
 
+  const setDimensions = () => {
+    setPixelCountWide(pixelCount(getDimensions().width));
+    setPixelCountTall(pixelCount(getDimensions().height));
+  };
+
   useEffect(() => {
-    window.addEventListener('resize', () => {
-      setPixelCountWide(pixelCount(window.innerWidth));
-      setPixelCountTall(pixelCount(window.innerHeight));
-    }, false);
+    setDimensions();
+    window.addEventListener('resize', setDimensions, false);
+    return () => {
+      window.removeEventListener('resize', setDimensions, false);
+    };
   });
 
   const horizontalCenter= Math.floor((pixelCountWide - PIXELS_WIDE) / 2);
   const verticalCenter = Math.floor((pixelCountTall - PIXELS_TALL) / 2);
 
   return (
-    <div className='grid'>
+    <div
+      className={`
+        grid
+        ${messageStatus ? `grid--message-${messageStatus}` : ''}
+      `}
+      ref={container}
+    >
       <div
         className='grid__avatar'
         style={{
@@ -64,6 +85,7 @@ const AvatarGrid = () => {
 };
 
 AvatarGrid.propTypes = {
+  messageStatus: PropTypes.string,
 };
 
 export default AvatarGrid;
