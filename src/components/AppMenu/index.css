@@ -1,6 +1,6 @@
 .app-menu {
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: var(--theme-color--translucent);
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -10,7 +10,9 @@
 }
 
 .app-menu__container {
-  background-color: #fff;
+  background-color: var(--theme-color--darker);
   flex: 0 1 auto;
+  position: relative;
+  z-index: 1;
   width: 100%;
 }

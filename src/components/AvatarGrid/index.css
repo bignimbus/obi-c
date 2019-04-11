@@ -1,0 +1,31 @@
+.grid {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.grid__avatar {
+  bottom: calc(50% + 1px);
+  position: absolute;
+  right: calc(50% + 1px);
+  transform: translate(50%, 50%);
+}
+
+.grid__row {
+  border-bottom: 1px solid var(--theme-color--darker);
+  width: 100%;
+}
+
+.grid__row:first-of-type {
+  border-top: 1px solid var(--theme-color--darker);
+}
+
+.grid__col {
+  border-right: 1px solid var(--theme-color--darker);
+  float: left;
+  height: 100%;
+}
+
+.grid__col:first-of-type {
+  border-left: 1px solid var(--theme-color--darker);
+}

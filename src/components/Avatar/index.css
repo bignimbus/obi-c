@@ -1,0 +1,21 @@
+.avatar {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.avatar__pixel {
+  background-color: var(--theme-contrast-color--translucent);
+  border: 1px solid var(--theme-contrast-color--translucent);
+  position: absolute;
+  transform: scale(1);
+  transition: transform 50ms;
+}
+
+.avatar__pixel--short {
+  transform: scale(1, 0.5);
+}
+
+.avatar__pixel--narrow {
+  transform: scale(0.5, 1);
+}

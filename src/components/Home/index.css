@@ -1,4 +1,5 @@
 .home {
+  background-color: var(--theme-color);
   height: 100%;
   outline: none;
   position: relative;
@@ -8,10 +9,16 @@
 .home__menu {
   display: none;
   height: 100%;
+  left: 0;
   position: absolute;
+  top: 0;
   width: 100%;
 }
 
 .home__menu--open {
   display: block;
+}
+
+.home__grid {
+  height: 100%;
 }

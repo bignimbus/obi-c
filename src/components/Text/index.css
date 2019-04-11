@@ -1,0 +1,33 @@
+.text {
+  color: var(--theme-contrast-color);
+  font-family: 'IBM Plex Sans', sans-serif;
+  line-height: 1.35;
+}
+
+.text--inverted {
+  color: var(--theme-color);
+}
+
+.text--inverted-darker {
+  color: var(--theme-color--darker);
+}
+
+.text--xs {
+  font-size: 12px;
+}
+
+.text--sm {
+  font-size: 16px;
+}
+
+.text--md {
+  font-size: 20px;
+}
+
+.text--lg {
+  font-size: 24px;
+}
+
+.text--xl {
+  font-size: 28px;
+}

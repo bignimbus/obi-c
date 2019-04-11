@@ -18,7 +18,16 @@ exports[`AppMenu #render authenticated user 1`] = `
         className="app-menu__header"
       >
         <div>
-          Jeff
+          <span
+            className="
+      text
+      text--sm
+      
+      
+    "
+          >
+            Jeff
+          </span>
         </div>
       </header>
       <section
@@ -31,6 +40,7 @@ exports[`AppMenu #render authenticated user 1`] = `
             className="app-menu__li"
           >
             <a
+              className="text text--sm"
               href="/remind"
               onClick={[Function]}
             >
@@ -41,6 +51,7 @@ exports[`AppMenu #render authenticated user 1`] = `
             className="app-menu__li"
           >
             <a
+              className="text text--sm"
               href="/feed"
               onClick={[Function]}
             >
@@ -51,6 +62,7 @@ exports[`AppMenu #render authenticated user 1`] = `
             className="app-menu__li"
           >
             <a
+              className="text text--sm"
               href="/play"
               onClick={[Function]}
             >
@@ -109,6 +121,7 @@ exports[`AppMenu #render authenticated user fetching data 1`] = `
             className="app-menu__li"
           >
             <a
+              className="text text--sm"
               href="/remind"
               onClick={[Function]}
             >
@@ -119,6 +132,7 @@ exports[`AppMenu #render authenticated user fetching data 1`] = `
             className="app-menu__li"
           >
             <a
+              className="text text--sm"
               href="/feed"
               onClick={[Function]}
             >
@@ -129,6 +143,7 @@ exports[`AppMenu #render authenticated user fetching data 1`] = `
             className="app-menu__li"
           >
             <a
+              className="text text--sm"
               href="/play"
               onClick={[Function]}
             >
@@ -187,6 +202,7 @@ exports[`AppMenu #render unauthenticated user 1`] = `
             className="app-menu__li"
           >
             <a
+              className="text text--sm"
               href="/remind"
               onClick={[Function]}
             >
@@ -197,6 +213,7 @@ exports[`AppMenu #render unauthenticated user 1`] = `
             className="app-menu__li"
           >
             <a
+              className="text text--sm"
               href="/feed"
               onClick={[Function]}
             >
@@ -207,6 +224,7 @@ exports[`AppMenu #render unauthenticated user 1`] = `
             className="app-menu__li"
           >
             <a
+              className="text text--sm"
               href="/play"
               onClick={[Function]}
             >

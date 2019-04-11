@@ -3,6 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
 import { default as AppMenu } from '../AppMenu';
+import AvatarGrid from '../AvatarGrid';
 
 const Home = ({ history, appMenuOpen }) => (
   <div
@@ -11,16 +12,16 @@ const Home = ({ history, appMenuOpen }) => (
     className='home'
     aria-label='Tap anywhere to open menu'
     onClick={() => {
-      history.push('/menu');
+      history.replace('/menu');
     }}
   >
+    <section className='home__grid'>
+      <AvatarGrid />
+    </section>
     <section
       className={`home__menu ${appMenuOpen ? 'home__menu--open' : ''}`}
     >
       <AppMenu />
-    </section>
-    <section>
-      Home
     </section>
   </div>
 );
@@ -28,7 +29,7 @@ const Home = ({ history, appMenuOpen }) => (
 Home.propTypes = {
   appMenuOpen: PropTypes.bool,
   history: PropTypes.shape({
-    push: PropTypes.func.isRequired,
+    replace: PropTypes.func.isRequired,
   }).isRequired,
 };
 

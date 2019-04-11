@@ -2,6 +2,7 @@ import './index.css';
 import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
 import { withRouter, Link } from 'react-router-dom';
+import Text from '../Text';
 import BlockstackContext, { LOADING } from '../../contexts/BlockstackContext';
 
 const AppMenu = ({ history }) => {
@@ -17,7 +18,10 @@ const AppMenu = ({ history }) => {
       tabIndex='0'
       className='app-menu'
       aria-label='tap to close menu'
-      onClick={history.goBack}
+      onClick={(e) => {
+        e.stopPropagation();
+        history.replace('/');
+      }}
     >
       <div className='app-menu__container'>
         <nav className='app-menu__nav'>
@@ -25,7 +29,9 @@ const AppMenu = ({ history }) => {
             {
               user ?
                 <div>
-                  { user.givenName() }
+                  <Text>
+                    { user.givenName() }
+                  </Text>
                 </div> :
                 <div>
                   <section>
@@ -63,6 +69,7 @@ const AppMenu = ({ history }) => {
                     <Link
                       replace
                       to={route}
+                      className='text text--sm'
                     >
                       { text }
                     </Link>
@@ -79,7 +86,7 @@ const AppMenu = ({ history }) => {
 
 AppMenu.propTypes = {
   history: PropTypes.shape({
-    goBack: PropTypes.func.isRequired,
+    replace: PropTypes.func.isRequired,
   }).isRequired,
 };
 
