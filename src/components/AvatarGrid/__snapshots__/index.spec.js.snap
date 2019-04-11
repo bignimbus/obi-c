@@ -21,18 +21,7 @@ exports[`AvatarGrid default 1`] = `
         style={
           Object {
             "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 0",
-            "top": "calc(100% / 13 * 0)",
-            "width": "calc(100% / 12)",
-          }
-        }
-      />
-      <div
-        className="avatar__pixel"
-        style={
-          Object {
-            "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 0",
+            "left": "calc(100% / 12 * 1",
             "top": "calc(100% / 13 * 1)",
             "width": "calc(100% / 12)",
           }
@@ -43,7 +32,7 @@ exports[`AvatarGrid default 1`] = `
         style={
           Object {
             "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 0",
+            "left": "calc(100% / 12 * 1",
             "top": "calc(100% / 13 * 2)",
             "width": "calc(100% / 12)",
           }
@@ -54,7 +43,7 @@ exports[`AvatarGrid default 1`] = `
         style={
           Object {
             "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 0",
+            "left": "calc(100% / 12 * 1",
             "top": "calc(100% / 13 * 3)",
             "width": "calc(100% / 12)",
           }
@@ -65,7 +54,7 @@ exports[`AvatarGrid default 1`] = `
         style={
           Object {
             "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 0",
+            "left": "calc(100% / 12 * 1",
             "top": "calc(100% / 13 * 4)",
             "width": "calc(100% / 12)",
           }
@@ -76,7 +65,7 @@ exports[`AvatarGrid default 1`] = `
         style={
           Object {
             "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 0",
+            "left": "calc(100% / 12 * 1",
             "top": "calc(100% / 13 * 5)",
             "width": "calc(100% / 12)",
           }
@@ -87,173 +76,8 @@ exports[`AvatarGrid default 1`] = `
         style={
           Object {
             "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 0",
-            "top": "calc(100% / 13 * 6)",
-            "width": "calc(100% / 12)",
-          }
-        }
-      />
-      <div
-        className="avatar__pixel"
-        style={
-          Object {
-            "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 0",
-            "top": "calc(100% / 13 * 7)",
-            "width": "calc(100% / 12)",
-          }
-        }
-      />
-      <div
-        className="avatar__pixel"
-        style={
-          Object {
-            "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 0",
-            "top": "calc(100% / 13 * 8)",
-            "width": "calc(100% / 12)",
-          }
-        }
-      />
-      <div
-        className="avatar__pixel"
-        style={
-          Object {
-            "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 0",
-            "top": "calc(100% / 13 * 9)",
-            "width": "calc(100% / 12)",
-          }
-        }
-      />
-      <div
-        className="avatar__pixel"
-        style={
-          Object {
-            "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 0",
-            "top": "calc(100% / 13 * 10)",
-            "width": "calc(100% / 12)",
-          }
-        }
-      />
-      <div
-        className="avatar__pixel"
-        style={
-          Object {
-            "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 0",
-            "top": "calc(100% / 13 * 11)",
-            "width": "calc(100% / 12)",
-          }
-        }
-      />
-      <div
-        className="avatar__pixel"
-        style={
-          Object {
-            "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 0",
-            "top": "calc(100% / 13 * 12)",
-            "width": "calc(100% / 12)",
-          }
-        }
-      />
-      <div
-        className="avatar__pixel"
-        style={
-          Object {
-            "height": "calc(100% / 13)",
             "left": "calc(100% / 12 * 1",
-            "top": "calc(100% / 13 * 12)",
-            "width": "calc(100% / 12)",
-          }
-        }
-      />
-      <div
-        className="avatar__pixel"
-        style={
-          Object {
-            "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 2",
-            "top": "calc(100% / 13 * 12)",
-            "width": "calc(100% / 12)",
-          }
-        }
-      />
-      <div
-        className="avatar__pixel"
-        style={
-          Object {
-            "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 3",
-            "top": "calc(100% / 13 * 12)",
-            "width": "calc(100% / 12)",
-          }
-        }
-      />
-      <div
-        className="avatar__pixel"
-        style={
-          Object {
-            "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 4",
-            "top": "calc(100% / 13 * 12)",
-            "width": "calc(100% / 12)",
-          }
-        }
-      />
-      <div
-        className="avatar__pixel"
-        style={
-          Object {
-            "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 5",
-            "top": "calc(100% / 13 * 12)",
-            "width": "calc(100% / 12)",
-          }
-        }
-      />
-      <div
-        className="avatar__pixel"
-        style={
-          Object {
-            "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 6",
-            "top": "calc(100% / 13 * 12)",
-            "width": "calc(100% / 12)",
-          }
-        }
-      />
-      <div
-        className="avatar__pixel"
-        style={
-          Object {
-            "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 7",
-            "top": "calc(100% / 13 * 12)",
-            "width": "calc(100% / 12)",
-          }
-        }
-      />
-      <div
-        className="avatar__pixel"
-        style={
-          Object {
-            "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 8",
-            "top": "calc(100% / 13 * 12)",
-            "width": "calc(100% / 12)",
-          }
-        }
-      />
-      <div
-        className="avatar__pixel"
-        style={
-          Object {
-            "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 9",
-            "top": "calc(100% / 13 * 12)",
+            "top": "calc(100% / 13 * 6)",
             "width": "calc(100% / 12)",
           }
         }
@@ -264,39 +88,6 @@ exports[`AvatarGrid default 1`] = `
           Object {
             "height": "calc(100% / 13)",
             "left": "calc(100% / 12 * 10",
-            "top": "calc(100% / 13 * 12)",
-            "width": "calc(100% / 12)",
-          }
-        }
-      />
-      <div
-        className="avatar__pixel"
-        style={
-          Object {
-            "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 11",
-            "top": "calc(100% / 13 * 12)",
-            "width": "calc(100% / 12)",
-          }
-        }
-      />
-      <div
-        className="avatar__pixel"
-        style={
-          Object {
-            "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 11",
-            "top": "calc(100% / 13 * 0)",
-            "width": "calc(100% / 12)",
-          }
-        }
-      />
-      <div
-        className="avatar__pixel"
-        style={
-          Object {
-            "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 11",
             "top": "calc(100% / 13 * 1)",
             "width": "calc(100% / 12)",
           }
@@ -307,7 +98,7 @@ exports[`AvatarGrid default 1`] = `
         style={
           Object {
             "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 11",
+            "left": "calc(100% / 12 * 10",
             "top": "calc(100% / 13 * 2)",
             "width": "calc(100% / 12)",
           }
@@ -318,7 +109,7 @@ exports[`AvatarGrid default 1`] = `
         style={
           Object {
             "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 11",
+            "left": "calc(100% / 12 * 10",
             "top": "calc(100% / 13 * 3)",
             "width": "calc(100% / 12)",
           }
@@ -329,7 +120,7 @@ exports[`AvatarGrid default 1`] = `
         style={
           Object {
             "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 11",
+            "left": "calc(100% / 12 * 10",
             "top": "calc(100% / 13 * 4)",
             "width": "calc(100% / 12)",
           }
@@ -340,7 +131,7 @@ exports[`AvatarGrid default 1`] = `
         style={
           Object {
             "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 11",
+            "left": "calc(100% / 12 * 10",
             "top": "calc(100% / 13 * 5)",
             "width": "calc(100% / 12)",
           }
@@ -351,74 +142,8 @@ exports[`AvatarGrid default 1`] = `
         style={
           Object {
             "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 11",
+            "left": "calc(100% / 12 * 10",
             "top": "calc(100% / 13 * 6)",
-            "width": "calc(100% / 12)",
-          }
-        }
-      />
-      <div
-        className="avatar__pixel"
-        style={
-          Object {
-            "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 11",
-            "top": "calc(100% / 13 * 7)",
-            "width": "calc(100% / 12)",
-          }
-        }
-      />
-      <div
-        className="avatar__pixel"
-        style={
-          Object {
-            "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 11",
-            "top": "calc(100% / 13 * 8)",
-            "width": "calc(100% / 12)",
-          }
-        }
-      />
-      <div
-        className="avatar__pixel"
-        style={
-          Object {
-            "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 11",
-            "top": "calc(100% / 13 * 9)",
-            "width": "calc(100% / 12)",
-          }
-        }
-      />
-      <div
-        className="avatar__pixel"
-        style={
-          Object {
-            "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 11",
-            "top": "calc(100% / 13 * 10)",
-            "width": "calc(100% / 12)",
-          }
-        }
-      />
-      <div
-        className="avatar__pixel"
-        style={
-          Object {
-            "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 11",
-            "top": "calc(100% / 13 * 11)",
-            "width": "calc(100% / 12)",
-          }
-        }
-      />
-      <div
-        className="avatar__pixel"
-        style={
-          Object {
-            "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 1",
-            "top": "calc(100% / 13 * 0)",
             "width": "calc(100% / 12)",
           }
         }
@@ -516,8 +241,8 @@ exports[`AvatarGrid default 1`] = `
         style={
           Object {
             "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 10",
-            "top": "calc(100% / 13 * 0)",
+            "left": "calc(100% / 12 * 4",
+            "top": "calc(100% / 13 * 2)",
             "width": "calc(100% / 12)",
           }
         }
@@ -527,7 +252,18 @@ exports[`AvatarGrid default 1`] = `
         style={
           Object {
             "height": "calc(100% / 13)",
-            "left": "calc(100% / 12 * 4",
+            "left": "calc(100% / 12 * 6",
+            "top": "calc(100% / 13 * 2)",
+            "width": "calc(100% / 12)",
+          }
+        }
+      />
+      <div
+        className="avatar__pixel"
+        style={
+          Object {
+            "height": "calc(100% / 13)",
+            "left": "calc(100% / 12 * 7",
             "top": "calc(100% / 13 * 4)",
             "width": "calc(100% / 12)",
           }
@@ -539,7 +275,282 @@ exports[`AvatarGrid default 1`] = `
           Object {
             "height": "calc(100% / 13)",
             "left": "calc(100% / 12 * 6",
+            "top": "calc(100% / 13 * 5)",
+            "width": "calc(100% / 12)",
+          }
+        }
+      />
+      <div
+        className="avatar__pixel"
+        style={
+          Object {
+            "height": "calc(100% / 13)",
+            "left": "calc(100% / 12 * 5",
+            "top": "calc(100% / 13 * 5)",
+            "width": "calc(100% / 12)",
+          }
+        }
+      />
+      <div
+        className="avatar__pixel"
+        style={
+          Object {
+            "height": "calc(100% / 13)",
+            "left": "calc(100% / 12 * 4",
+            "top": "calc(100% / 13 * 5)",
+            "width": "calc(100% / 12)",
+          }
+        }
+      />
+      <div
+        className="avatar__pixel"
+        style={
+          Object {
+            "height": "calc(100% / 13)",
+            "left": "calc(100% / 12 * 3",
             "top": "calc(100% / 13 * 4)",
+            "width": "calc(100% / 12)",
+          }
+        }
+      />
+      <div
+        className="avatar__pixel"
+        style={
+          Object {
+            "height": "calc(100% / 13)",
+            "left": "calc(100% / 12 * 2",
+            "top": "calc(100% / 13 * 7)",
+            "width": "calc(100% / 12)",
+          }
+        }
+      />
+      <div
+        className="avatar__pixel"
+        style={
+          Object {
+            "height": "calc(100% / 13)",
+            "left": "calc(100% / 12 * 3",
+            "top": "calc(100% / 13 * 7)",
+            "width": "calc(100% / 12)",
+          }
+        }
+      />
+      <div
+        className="avatar__pixel"
+        style={
+          Object {
+            "height": "calc(100% / 13)",
+            "left": "calc(100% / 12 * 4",
+            "top": "calc(100% / 13 * 7)",
+            "width": "calc(100% / 12)",
+          }
+        }
+      />
+      <div
+        className="avatar__pixel"
+        style={
+          Object {
+            "height": "calc(100% / 13)",
+            "left": "calc(100% / 12 * 5",
+            "top": "calc(100% / 13 * 7)",
+            "width": "calc(100% / 12)",
+          }
+        }
+      />
+      <div
+        className="avatar__pixel"
+        style={
+          Object {
+            "height": "calc(100% / 13)",
+            "left": "calc(100% / 12 * 6",
+            "top": "calc(100% / 13 * 7)",
+            "width": "calc(100% / 12)",
+          }
+        }
+      />
+      <div
+        className="avatar__pixel"
+        style={
+          Object {
+            "height": "calc(100% / 13)",
+            "left": "calc(100% / 12 * 7",
+            "top": "calc(100% / 13 * 7)",
+            "width": "calc(100% / 12)",
+          }
+        }
+      />
+      <div
+        className="avatar__pixel"
+        style={
+          Object {
+            "height": "calc(100% / 13)",
+            "left": "calc(100% / 12 * 8",
+            "top": "calc(100% / 13 * 7)",
+            "width": "calc(100% / 12)",
+          }
+        }
+      />
+      <div
+        className="avatar__pixel"
+        style={
+          Object {
+            "height": "calc(100% / 13)",
+            "left": "calc(100% / 12 * 9",
+            "top": "calc(100% / 13 * 7)",
+            "width": "calc(100% / 12)",
+          }
+        }
+      />
+      <div
+        className="avatar__pixel"
+        style={
+          Object {
+            "height": "calc(100% / 13)",
+            "left": "calc(100% / 12 * 5",
+            "top": "calc(100% / 13 * 8)",
+            "width": "calc(100% / 12)",
+          }
+        }
+      />
+      <div
+        className="avatar__pixel"
+        style={
+          Object {
+            "height": "calc(100% / 13)",
+            "left": "calc(100% / 12 * 5",
+            "top": "calc(100% / 13 * 9)",
+            "width": "calc(100% / 12)",
+          }
+        }
+      />
+      <div
+        className="avatar__pixel"
+        style={
+          Object {
+            "height": "calc(100% / 13)",
+            "left": "calc(100% / 12 * 6",
+            "top": "calc(100% / 13 * 9)",
+            "width": "calc(100% / 12)",
+          }
+        }
+      />
+      <div
+        className="avatar__pixel"
+        style={
+          Object {
+            "height": "calc(100% / 13)",
+            "left": "calc(100% / 12 * 7",
+            "top": "calc(100% / 13 * 9)",
+            "width": "calc(100% / 12)",
+          }
+        }
+      />
+      <div
+        className="avatar__pixel"
+        style={
+          Object {
+            "height": "calc(100% / 13)",
+            "left": "calc(100% / 12 * 4",
+            "top": "calc(100% / 13 * 9)",
+            "width": "calc(100% / 12)",
+          }
+        }
+      />
+      <div
+        className="avatar__pixel"
+        style={
+          Object {
+            "height": "calc(100% / 13)",
+            "left": "calc(100% / 12 * 3",
+            "top": "calc(100% / 13 * 9)",
+            "width": "calc(100% / 12)",
+          }
+        }
+      />
+      <div
+        className="avatar__pixel"
+        style={
+          Object {
+            "height": "calc(100% / 13)",
+            "left": "calc(100% / 12 * 5",
+            "top": "calc(100% / 13 * 10)",
+            "width": "calc(100% / 12)",
+          }
+        }
+      />
+      <div
+        className="avatar__pixel"
+        style={
+          Object {
+            "height": "calc(100% / 13)",
+            "left": "calc(100% / 12 * 5",
+            "top": "calc(100% / 13 * 11)",
+            "width": "calc(100% / 12)",
+          }
+        }
+      />
+      <div
+        className="avatar__pixel"
+        style={
+          Object {
+            "height": "calc(100% / 13)",
+            "left": "calc(100% / 12 * 6",
+            "top": "calc(100% / 13 * 12)",
+            "width": "calc(100% / 12)",
+          }
+        }
+      />
+      <div
+        className="avatar__pixel"
+        style={
+          Object {
+            "height": "calc(100% / 13)",
+            "left": "calc(100% / 12 * 7",
+            "top": "calc(100% / 13 * 12)",
+            "width": "calc(100% / 12)",
+          }
+        }
+      />
+      <div
+        className="avatar__pixel"
+        style={
+          Object {
+            "height": "calc(100% / 13)",
+            "left": "calc(100% / 12 * 8",
+            "top": "calc(100% / 13 * 12)",
+            "width": "calc(100% / 12)",
+          }
+        }
+      />
+      <div
+        className="avatar__pixel"
+        style={
+          Object {
+            "height": "calc(100% / 13)",
+            "left": "calc(100% / 12 * 4",
+            "top": "calc(100% / 13 * 12)",
+            "width": "calc(100% / 12)",
+          }
+        }
+      />
+      <div
+        className="avatar__pixel"
+        style={
+          Object {
+            "height": "calc(100% / 13)",
+            "left": "calc(100% / 12 * 3",
+            "top": "calc(100% / 13 * 12)",
+            "width": "calc(100% / 12)",
+          }
+        }
+      />
+      <div
+        className="avatar__pixel"
+        style={
+          Object {
+            "height": "calc(100% / 13)",
+            "left": "calc(100% / 12 * 2",
+            "top": "calc(100% / 13 * 12)",
             "width": "calc(100% / 12)",
           }
         }
