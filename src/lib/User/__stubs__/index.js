@@ -15,7 +15,7 @@ export const stubUser = (props) => {
   return new User(props);
 };
 
-export const stubValidUser = props => new User({
+export const stubValidUser = props => stubUser({
   name: 'Name',
   events: [],
   ...props,

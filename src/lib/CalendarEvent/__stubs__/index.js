@@ -49,3 +49,12 @@ export const stubCalendarEventWithInvalidNotifications = props => stubValidCalen
   notifications: [{}],
   ...props,
 });
+
+export const stubValidCalendarEventWithNotification = (props) => {
+  const calendarEvent = stubValidCalendarEvent(props);
+  calendarEvent.addNotification({
+    title: 'Reminder',
+    body: calendarEvent.body,
+  });
+  return calendarEvent;
+};
