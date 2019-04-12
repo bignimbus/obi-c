@@ -1,12 +1,14 @@
 import CalendarEvent from '../';
+import { stubUser } from '../../User/__stubs__';
 import difference from 'lodash/difference';
 
 const VALID_PROPS = [
-  'userId',
-  'ownerId',
+  'user',
+  'owner',
   'endTime',
   'startTime',
   'description',
+  'notifications',
 ];
 
 export const stubCalendarEvent = (props) => {
@@ -19,10 +21,11 @@ export const stubCalendarEvent = (props) => {
 };
 
 export const stubValidCalendarEvent = props => stubCalendarEvent({
-  userId: '42',
-  ownerId: '42',
+  notifications: [],
   endTime: new Date(),
   startTime: new Date(),
+  user: stubUser({ name: 'Foo' }),
+  owner: stubUser({ name: 'Foo' }),
   description: 'A valid calendar event',
   ...props,
 });
@@ -32,12 +35,17 @@ export const stubCalendarEventWithInvalidDate = props => stubValidCalendarEvent(
   ...props,
 });
 
-export const stubCalendarEventWithInvalidUserId = props => stubValidCalendarEvent({
-  userId: null,
+export const stubCalendarEventWithInvalidUser = props => stubValidCalendarEvent({
+  user: undefined,
   ...props,
 });
 
-export const stubCalendarEventWithInvalidOwnerId = props => stubValidCalendarEvent({
-  ownerId: null,
+export const stubCalendarEventWithInvalidOwner = props => stubValidCalendarEvent({
+  owner: undefined,
+  ...props,
+});
+
+export const stubCalendarEventWithInvalidNotifications = props => stubValidCalendarEvent({
+  notifications: [{}],
   ...props,
 });

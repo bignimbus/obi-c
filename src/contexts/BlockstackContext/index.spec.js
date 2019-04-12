@@ -9,7 +9,7 @@ const renderComponentWithContext = Child => renderer.create(
 );
 
 describe('BlockstackContextProvider', () => {
-  test('it should provide a context', () => {
+  it('should provide a context', () => {
     const TestChildComponent = () => <div />;
     const TestComponent = () => {
       const contextValue = useContext(BlockstackContext);

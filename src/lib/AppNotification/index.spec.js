@@ -1,6 +1,7 @@
 import {
   stubValidAppNotification,
   stubAppNotificationWithInvalidBody,
+  stubAppNotificationWithInvalidTime,
   stubAppNotificationWithInvalidTitle,
 } from './__stubs__';
 
@@ -33,5 +34,27 @@ describe('AppNotification', () => {
     expect(errors.size).toBe(1);
     const [appNotificationError] = [...errors.values()];
     expect(appNotificationError).toEqual(new Error('an app notification must have a body'));
+  });
+
+  it('should allow a time to be assigned', () => {
+    const time = new Date();
+    const appNotification = stubValidAppNotification({ time });
+    expect(appNotification.errors.size).toBe(0);
+    expect(appNotification.time).toBe(time);
+  });
+
+  it('should not allow a blank time', () => {
+    const appNotification = stubAppNotificationWithInvalidTime();
+    const { errors } = appNotification;
+    expect(errors.size).toBe(1);
+    const [appNotificationError] = [...errors.values()];
+    expect(appNotificationError).toEqual(new Error('an app notification must have a time'));
+  });
+
+  it('should allow a notifiable entity to be assigned', () => {
+    const notifiable = {};
+    const appNotification = stubValidAppNotification({ notifiable });
+    expect(appNotification.errors.size).toBe(0);
+    expect(appNotification.notifiable).toBe(notifiable);
   });
 });

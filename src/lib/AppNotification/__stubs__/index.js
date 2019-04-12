@@ -3,7 +3,9 @@ import difference from 'lodash/difference';
 
 const VALID_PROPS = [
   'body',
+  'time',
   'title',
+  'notifiable',
 ];
 
 export const stubAppNotification = (props) => {
@@ -18,6 +20,8 @@ export const stubAppNotification = (props) => {
 export const stubValidAppNotification = props => stubAppNotification({
   body: 'Bar',
   title: 'Foo',
+  time: new Date(),
+  notifiable: {},
   ...props,
 });
 
@@ -28,5 +32,10 @@ export const stubAppNotificationWithInvalidBody = props => stubValidAppNotificat
 
 export const stubAppNotificationWithInvalidTitle = props => stubValidAppNotification({
   title: null,
+  ...props,
+});
+
+export const stubAppNotificationWithInvalidTime = props => stubValidAppNotification({
+  time: null,
   ...props,
 });

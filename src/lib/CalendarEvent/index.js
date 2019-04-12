@@ -1,27 +1,33 @@
 import Model from '../Model';
+import User from '../User';
+import AppNotification from '../AppNotification';
 
 const START_TIME_ERROR_MESSAGE = 'an event must have a start time';
-const USER_ID_ERROR_MESSAGE = 'an event must have a user id';
-const OWNER_ID_ERROR_MESSAGE = 'an event must have an owner id';
+const USER_ERROR_MESSAGE = 'an event must have a user';
+const OWNER_ERROR_MESSAGE = 'an event must have an owner';
+const NOTIFICATIONS_ERROR_MESSAGE = 'notifications must be of type AppNotification';
 
 class CalendarEvent extends Model {
   init ({
-    userId,
-    ownerId,
+    user,
+    owner,
     endTime,
     startTime,
     description,
+    notifications,
   }) {
     Object.assign(this, {
-      userId,
-      ownerId,
+      user,
+      owner,
       endTime,
       startTime,
       description,
+      notifications: [].concat(notifications).filter(el => el),
     });
     this.validateStartTime();
-    this.validateUserId();
-    this.validateOwnerId();
+    this.validateUser();
+    this.validateOwner();
+    this.validateNotifications();
   }
 
   validateStartTime () {
@@ -29,14 +35,36 @@ class CalendarEvent extends Model {
     this.errors = START_TIME_ERROR_MESSAGE;
   }
 
-  validateUserId () {
-    if (this.userId) return;
-    this.errors = USER_ID_ERROR_MESSAGE;
+  validateUser () {
+    if (this.user instanceof User) return;
+    this.errors = USER_ERROR_MESSAGE;
   }
 
-  validateOwnerId () {
-    if (this.ownerId) return;
-    this.errors = OWNER_ID_ERROR_MESSAGE;
+  validateOwner () {
+    if (this.owner instanceof User) return;
+    this.errors = OWNER_ERROR_MESSAGE;
+  }
+
+  validateNotifications () {
+    if (this.notifications.every(n => n instanceof AppNotification)) return;
+    this.errors = NOTIFICATIONS_ERROR_MESSAGE;
+  }
+
+  addNotification ({ body, time, title }) {
+    const notification = new AppNotification({
+      body,
+      title,
+      notifiable: this,
+      time: time || this.startTime,
+    });
+    this.notifications = [...this.notifications, notification];
+    return this;
+  }
+
+  removeNotfication (notification) {
+    this.notifications = this.notifications.filter(n => n !== notification);
+    notification.notifiable = null;
+    return this;
   }
 }
 

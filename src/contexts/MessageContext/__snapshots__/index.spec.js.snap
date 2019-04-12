@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessageContextProvider should provide a context 1`] = `
+<div>
+  []
+</div>
+`;
+
+exports[`MessageContextProvider should provide a context 2`] = `
+<div>
+  [{"foo":"bar"}]
+</div>
+`;
+
+exports[`MessageContextProvider should provide a context 3`] = `
+<div>
+  []
+</div>
+`;
