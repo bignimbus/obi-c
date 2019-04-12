@@ -3,6 +3,7 @@ import difference from 'lodash/difference';
 
 const VALID_PROPS = [
   'name',
+  'events',
 ];
 
 export const stubUser = (props) => {
@@ -13,3 +14,9 @@ export const stubUser = (props) => {
   }
   return new User(props);
 };
+
+export const stubValidUser = props => new User({
+  name: 'Name',
+  events: [],
+  ...props,
+});
