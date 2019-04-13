@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ClockContextProvider should expose a collection of notifications 1`] = `
+<div>
+  []
+   
+</div>
+`;
+
+exports[`ClockContextProvider should tick the clock every 15 seconds 1`] = `
+<div>
+  <ul>
+    <li>
+      active right away
+    </li>
+    <li>
+      active right away again
+    </li>
+  </ul>
+  <button
+    onClick={[Function]}
+  >
+    Add event
+  </button>
+</div>
+`;
+
+exports[`ClockContextProvider should tick the clock every 15 seconds 2`] = `
+<div>
+  <ul>
+    <li>
+      active right away
+    </li>
+    <li>
+      active right away again
+    </li>
+    <li>
+      active in a minute
+    </li>
+  </ul>
+  <button
+    onClick={[Function]}
+  >
+    Add event
+  </button>
+</div>
+`;
+
+exports[`ClockContextProvider should tick the clock every 15 seconds 3`] = `
+<div>
+  <ul>
+    <li>
+      active right away
+    </li>
+    <li>
+      active right away again
+    </li>
+    <li>
+      active in a minute
+    </li>
+    <li>
+      active in an hour
+    </li>
+  </ul>
+  <button
+    onClick={[Function]}
+  >
+    Add event
+  </button>
+</div>
+`;

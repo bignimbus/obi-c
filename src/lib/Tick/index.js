@@ -18,7 +18,7 @@ class Tick extends Model {
     return this.user.events.reduce((activeNotifications, { notifications }) => [
       ...activeNotifications,
       ...notifications.filter(
-        ({ time }) => time >= this.incrementStart && time <= this.incrementEnd
+        ({ time }) => time <= this.incrementEnd
       ),
     ], []);
   }

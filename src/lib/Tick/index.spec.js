@@ -35,15 +35,15 @@ describe('Tick', () => {
 
   it('should be able to return a collection of "active" notifications', () => {
     const activeNotifications = [
+      minutesAgo(60),
+      minutesAgo(30),
+      minutesAgo(11),
+      minutesAgo(10),
       minutesAgo(9.99),
       minutesAgo(9),
       minutesAgo(1),
     ];
     const inactiveNotifications = [
-      minutesAgo(60),
-      minutesAgo(30),
-      minutesAgo(11),
-      minutesAgo(10),
       minutesAgo(-1),
     ];
     const tick = stubValidTickWithNotifications([...activeNotifications, ...inactiveNotifications]);
