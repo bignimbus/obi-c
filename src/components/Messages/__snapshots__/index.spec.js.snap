@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Messages should be able to render with active notifications 1`] = `
+<div>
+  <ul>
+    <li>
+      <section>
+        <h2>
+          <span
+            className="
+      text
+      text--md
+      
+      
+    "
+          >
+            Foo
+          </span>
+        </h2>
+        <p>
+          <span
+            className="
+      text
+      text--sm
+      
+      
+    "
+          >
+            bar baz
+          </span>
+        </p>
+      </section>
+      <footer>
+        <button
+          onClick={[Function]}
+        >
+          OK
+        </button>
+      </footer>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Messages should be able to render with no active notifications 1`] = `
+<div>
+  <ul />
+</div>
+`;

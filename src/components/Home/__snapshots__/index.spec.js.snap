@@ -72136,7 +72136,11 @@ exports[`Home #render app menu is closed 1`] = `
     </section>
     <section
       className="home__message"
-    />
+    >
+      <div>
+        <ul />
+      </div>
+    </section>
   </section>
   <section
     className="home__menu "
@@ -72218,42 +72222,6 @@ exports[`Home #render app menu is closed 1`] = `
           </section>
         </nav>
       </div>
-    </div>
-  </section>
-  <section
-    className="home__test-message "
-  >
-    <div
-      className="test-message"
-    >
-      <form
-        className="test-message__form"
-        onSubmit={[Function]}
-      >
-        <section>
-          <section>
-            <label
-              htmlFor="test-message"
-            >
-              Test message
-            </label>
-          </section>
-          <section>
-            <textarea
-              className="test-message__textarea"
-              id="test-message"
-              name="test-message"
-            />
-          </section>
-        </section>
-        <footer>
-          <button
-            type="submit"
-          >
-            Send test message
-          </button>
-        </footer>
-      </form>
     </div>
   </section>
 </div>
@@ -144395,7 +144363,11 @@ exports[`Home #render app menu is open 1`] = `
     </section>
     <section
       className="home__message"
-    />
+    >
+      <div>
+        <ul />
+      </div>
+    </section>
   </section>
   <section
     className="home__menu home__menu--open"
@@ -144477,42 +144449,6 @@ exports[`Home #render app menu is open 1`] = `
           </section>
         </nav>
       </div>
-    </div>
-  </section>
-  <section
-    className="home__test-message "
-  >
-    <div
-      className="test-message"
-    >
-      <form
-        className="test-message__form"
-        onSubmit={[Function]}
-      >
-        <section>
-          <section>
-            <label
-              htmlFor="test-message"
-            >
-              Test message
-            </label>
-          </section>
-          <section>
-            <textarea
-              className="test-message__textarea"
-              id="test-message"
-              name="test-message"
-            />
-          </section>
-        </section>
-        <footer>
-          <button
-            type="submit"
-          >
-            Send test message
-          </button>
-        </footer>
-      </form>
     </div>
   </section>
 </div>

@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
 import { default as AppMenu } from '../AppMenu';
-import { default as TestMessage } from '../TestMessage';
+import Messages from '../Messages';
 import AvatarGrid from '../AvatarGrid';
 
 const Home = ({
@@ -11,7 +11,6 @@ const Home = ({
   location,
   hasMessage,
   appMenuOpen,
-  testMessageOpen,
 }) => (
   <div className='home'>
     <section
@@ -27,11 +26,7 @@ const Home = ({
         <AvatarGrid />
       </section>
       <section className='home__message'>
-        {
-          location.state &&
-            location.state.message &&
-              location.state.message.title
-        }
+        <Messages />
       </section>
     </section>
     <section
@@ -39,17 +34,11 @@ const Home = ({
     >
       <AppMenu />
     </section>
-    <section
-      className={`home__test-message ${testMessageOpen ? 'home__test-message--open' : ''}`}
-    >
-      <TestMessage />
-    </section>
   </div>
 );
 
 Home.propTypes = {
   appMenuOpen: PropTypes.bool,
-  testMessageOpen: PropTypes.bool,
   history: PropTypes.shape({
     replace: PropTypes.func.isRequired,
   }).isRequired,

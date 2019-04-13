@@ -10,9 +10,6 @@ const Routes = () => (
     <Route exact path='/menu'>
       <Home appMenuOpen />
     </Route>
-    <Route exact path='/test-message'>
-      <Home testMessageOpen />
-    </Route>
   </Switch>
 );
 

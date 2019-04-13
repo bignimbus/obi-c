@@ -2,6 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { MemoryRouter } from 'react-router-dom';
 import { default as Routes } from '.';
+import ClockContext from '../../contexts/ClockContext';
 import BlockstackContext from '../../contexts/BlockstackContext';
 
 const renderComponent = route => renderer.create(
@@ -12,9 +13,16 @@ const renderComponent = route => renderer.create(
       authState: 'foo',
     }}
   >
-    <MemoryRouter initialEntries={[route]}>
-      <Routes />
-    </MemoryRouter>
+    <ClockContext.Provider
+      value={{
+        removeEvent: jest.fn(),
+        activeNotifications: [],
+      }}
+    >
+      <MemoryRouter initialEntries={[route]}>
+        <Routes />
+      </MemoryRouter>
+    </ClockContext.Provider>
   </BlockstackContext.Provider>,
 );
 
@@ -26,11 +34,6 @@ describe('Routes', () => {
 
   test('/menu', () => {
     const element = renderComponent('/menu');
-    expect(element.toJSON()).toMatchSnapshot();
-  });
-
-  test('/test-message', () => {
-    const element = renderComponent('/test-message');
     expect(element.toJSON()).toMatchSnapshot();
   });
 });

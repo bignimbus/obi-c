@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from '.';
+import ClockContext from '../../contexts/ClockContext';
 import BlockstackContext from '../../contexts/BlockstackContext';
 
 it('renders without crashing', () => {
@@ -13,7 +14,14 @@ it('renders without crashing', () => {
         authState: 'foo',
       }}
     >
-      <App />
+      <ClockContext.Provider
+        value={{
+          removeEvent: jest.fn(),
+          activeNotifications: [],
+        }}
+      >
+        <App />
+      </ClockContext.Provider>
     </BlockstackContext.Provider>
   );
   ReactDOM.render(
