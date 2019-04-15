@@ -9,6 +9,15 @@
   width: 100%;
 }
 
+.app-menu__click-to-close {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+
 .app-menu__container {
   background-color: var(--theme-color--darker);
   flex: 0 1 auto;
@@ -19,11 +28,13 @@
 }
 
 .app-menu__main {
-  border-top: 2px solid var(--theme-contrast-color);
-  margin: 16px auto;
+  border-top: 2px solid var(--theme-contrast-color--translucent);
+  margin: 16px auto 0;
 }
 
 .app-menu__command {
+  margin: 0 auto;
+  padding-top: 16px;
 }
 
 .profile-badge__img-container {

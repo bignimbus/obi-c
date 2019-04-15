@@ -1,6 +1,6 @@
 .text {
   color: var(--theme-contrast-color);
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: var(--theme-font-family);
   line-height: 1.35;
 }
 

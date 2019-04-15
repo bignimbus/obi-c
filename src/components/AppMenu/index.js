@@ -5,6 +5,7 @@ import { withRouter } from 'react-router-dom';
 import Text from '../Text';
 import Button from '../Button';
 import BlockstackContext, { LOADING } from '../../contexts/BlockstackContext';
+import { default as Command } from '../Command';
 
 const AppMenu = ({ history }) => {
   const {
@@ -20,16 +21,17 @@ const AppMenu = ({ history }) => {
   };
 
   return (
-    <div
-      role='button'
-      tabIndex='0'
-      className='app-menu'
-      aria-label='tap to close menu'
-      onClick={(e) => {
-        e.stopPropagation();
-        history.replace('/');
-      }}
-    >
+    <div className='app-menu'>
+      <div
+        role='button'
+        tabIndex='0'
+        aria-label='tap to close menu'
+        className='app-menu__click-to-close'
+        onClick={(e) => {
+          e.stopPropagation();
+          history.replace('/');
+        }}
+      />
       <div className='app-menu__container'>
         <nav className='app-menu__nav'>
           <header className='app-menu__header'>
@@ -91,7 +93,7 @@ const AppMenu = ({ history }) => {
           </header>
           <section className='app-menu__main'>
             <div className='app-menu__command'>
-              Command goes here
+              <Command autoFocus={!!user} />
             </div>
           </section>
         </nav>

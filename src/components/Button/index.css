@@ -12,7 +12,8 @@
   width: 100%;
 }
 
-.button--disabled {
+.button--disabled,
+.button--disabled[disabled] {
   border-color: transparent;
 }
 

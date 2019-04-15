@@ -1,0 +1,29 @@
+.command {
+  position: relative;
+  width: 100%;
+}
+
+.command__textarea {
+  border: 2px solid transparent;
+  display: block;
+  outline: none;
+  padding: 8px;
+  position: relative;
+  resize: none;
+  width: 100%;
+}
+
+.command__textarea:focus {
+  border-color: var(--theme-color);
+}
+
+.command__footer {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 8px;
+}
+
+.command__button-container {
+  height: 56px;
+  width: 100px;
+}

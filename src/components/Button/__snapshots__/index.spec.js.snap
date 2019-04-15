@@ -8,6 +8,7 @@ exports[`Button should be able to be disabled 1`] = `
     "
   disabled={true}
   onClick={[MockFunction]}
+  type="button"
 >
   <div
     className="button__content-container"
@@ -17,7 +18,40 @@ exports[`Button should be able to be disabled 1`] = `
 </button>
 `;
 
-exports[`Button should render a button with content and require an onClick event handler 1`] = `
+exports[`Button should be able to have a type 1`] = `
+<button
+  className="
+      button
+      
+    "
+  onClick={[MockFunction]}
+  type="submit"
+>
+  <div
+    className="button__content-container"
+  >
+    Submit me
+  </div>
+</button>
+`;
+
+exports[`Button should be able to omit the onClick handler if it is type "submit" 1`] = `
+<button
+  className="
+      button
+      
+    "
+  type="submit"
+>
+  <div
+    className="button__content-container"
+  >
+    Submit me
+  </div>
+</button>
+`;
+
+exports[`Button should render a button with content and require an onClick event handler by default 1`] = `
 <button
   className="
       button
@@ -36,6 +70,7 @@ exports[`Button should render a button with content and require an onClick event
       ],
     }
   }
+  type="button"
 >
   <div
     className="button__content-container"

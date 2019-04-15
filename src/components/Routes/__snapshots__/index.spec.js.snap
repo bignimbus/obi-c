@@ -72146,12 +72146,15 @@ exports[`Routes / 1`] = `
     className="home__menu "
   >
     <div
-      aria-label="tap to close menu"
       className="app-menu"
-      onClick={[Function]}
-      role="button"
-      tabIndex="0"
     >
+      <div
+        aria-label="tap to close menu"
+        className="app-menu__click-to-close"
+        onClick={[Function]}
+        role="button"
+        tabIndex="0"
+      />
       <div
         className="app-menu__container"
       >
@@ -72177,6 +72180,7 @@ exports[`Routes / 1`] = `
     "
                     disabled={false}
                     onClick={[MockFunction]}
+                    type="button"
                   >
                     <div
                       className="button__content-container"
@@ -72217,7 +72221,59 @@ exports[`Routes / 1`] = `
             <div
               className="app-menu__command"
             >
-              Command goes here
+              <div
+                className="command"
+              >
+                <form
+                  className="command__form"
+                  onSubmit={[Function]}
+                >
+                  <div>
+                    <section>
+                      <textarea
+                        className=" command__textarea text text--lg text--inverted-darker "
+                        id="command-text"
+                        name="command-text"
+                        onChange={[Function]}
+                        placeholder="Remind me to try this out in one minute"
+                        rows="5"
+                        value=""
+                      />
+                    </section>
+                    <footer
+                      className="command__footer"
+                    >
+                      <div
+                        className="command__button-container"
+                      >
+                        <button
+                          className="
+      button
+      button--disabled
+    "
+                          disabled={true}
+                          type="submit"
+                        >
+                          <div
+                            className="button__content-container"
+                          >
+                            <span
+                              className="
+      text
+      text--sm
+      
+      
+    "
+                            >
+                              OK
+                            </span>
+                          </div>
+                        </button>
+                      </div>
+                    </footer>
+                  </div>
+                </form>
+              </div>
             </div>
           </section>
         </nav>
@@ -144373,12 +144429,15 @@ exports[`Routes /menu 1`] = `
     className="home__menu home__menu--open"
   >
     <div
-      aria-label="tap to close menu"
       className="app-menu"
-      onClick={[Function]}
-      role="button"
-      tabIndex="0"
     >
+      <div
+        aria-label="tap to close menu"
+        className="app-menu__click-to-close"
+        onClick={[Function]}
+        role="button"
+        tabIndex="0"
+      />
       <div
         className="app-menu__container"
       >
@@ -144404,6 +144463,7 @@ exports[`Routes /menu 1`] = `
     "
                     disabled={false}
                     onClick={[MockFunction]}
+                    type="button"
                   >
                     <div
                       className="button__content-container"
@@ -144444,7 +144504,59 @@ exports[`Routes /menu 1`] = `
             <div
               className="app-menu__command"
             >
-              Command goes here
+              <div
+                className="command"
+              >
+                <form
+                  className="command__form"
+                  onSubmit={[Function]}
+                >
+                  <div>
+                    <section>
+                      <textarea
+                        className=" command__textarea text text--lg text--inverted-darker "
+                        id="command-text"
+                        name="command-text"
+                        onChange={[Function]}
+                        placeholder="Remind me to try this out in one minute"
+                        rows="5"
+                        value=""
+                      />
+                    </section>
+                    <footer
+                      className="command__footer"
+                    >
+                      <div
+                        className="command__button-container"
+                      >
+                        <button
+                          className="
+      button
+      button--disabled
+    "
+                          disabled={true}
+                          type="submit"
+                        >
+                          <div
+                            className="button__content-container"
+                          >
+                            <span
+                              className="
+      text
+      text--sm
+      
+      
+    "
+                            >
+                              OK
+                            </span>
+                          </div>
+                        </button>
+                      </div>
+                    </footer>
+                  </div>
+                </form>
+              </div>
             </div>
           </section>
         </nav>
