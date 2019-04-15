@@ -18,6 +18,7 @@ describe('AppMenu', () => {
       const element = renderComponent({
         user: null,
         signIn: jest.fn(),
+        signOut: jest.fn(),
         authState: 'pending',
       });
       expect(element.toJSON()).toMatchSnapshot();
@@ -27,6 +28,7 @@ describe('AppMenu', () => {
       const element = renderComponent({
         user: null,
         signIn: jest.fn(),
+        signOut: jest.fn(),
         authState: 'loading',
       });
       expect(element.toJSON()).toMatchSnapshot();
@@ -36,8 +38,10 @@ describe('AppMenu', () => {
       const element = renderComponent({
         user: {
           givenName: jest.fn(() => 'Jeff'),
+          avatarUrl: jest.fn(() => 'https://foo.bar'),
         },
         signIn: jest.fn(),
+        signOut: jest.fn(),
         authState: 'authenticated',
       });
       expect(element.toJSON()).toMatchSnapshot();

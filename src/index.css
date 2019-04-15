@@ -19,8 +19,11 @@ body {
   padding: 0;
 }
 
+a {
+  text-decoration-color: unset;
+}
+
 .__one-hundred-percent {
   height: 100%;
   width: 100%;
 }
-

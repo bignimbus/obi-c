@@ -12,7 +12,55 @@
 .app-menu__container {
   background-color: var(--theme-color--darker);
   flex: 0 1 auto;
+  padding: 8px;
   position: relative;
   z-index: 1;
   width: 100%;
+}
+
+.app-menu__main {
+  border-top: 2px solid var(--theme-contrast-color);
+  margin: 16px auto;
+}
+
+.app-menu__command {
+}
+
+.profile-badge__img-container {
+  border: 2px solid var(--theme-contrast-color);
+  border-radius: 50%;
+  height: 56px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  width: 56px;
+}
+
+.profile-badge__img {
+  bottom: 50%;
+  display: block;
+  height: auto;
+  position: absolute;
+  right: 50%;
+  transform: translate(50%, 50%);
+  width: 100%;
+  z-index: 0;
+}
+
+.profile-badge__img--monogram {
+  text-align: center;
+}
+
+.profile-badge__button-container {
+  height: 56px;
+  margin: 0 auto;
+  max-width: 200px;
+  width: 100%;
+}
+
+.profile-badge__learn-more-container {
+  margin: 0 auto;
+  padding-top: 8px;
+  text-align: center;
 }

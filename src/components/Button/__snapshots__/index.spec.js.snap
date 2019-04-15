@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should be able to be disabled 1`] = `
+<button
+  className="
+      button
+      button--disabled
+    "
+  disabled={true}
+  onClick={[MockFunction]}
+>
+  <div
+    className="button__content-container"
+  >
+    Don't click me
+  </div>
+</button>
+`;
+
+exports[`Button should render a button with content and require an onClick event handler 1`] = `
+<button
+  className="
+      button
+      
+    "
+  onClick={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "isThrow": false,
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  <div
+    className="button__content-container"
+  >
+    Click me
+  </div>
+</button>
+`;

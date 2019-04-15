@@ -27,7 +27,7 @@ export const ClockContextProvider = ({ children }) => {
       setTick(newTick);
       setActiveNotifications(newTick.getActiveNotifications());
     }, 1000);
-    return clearInterval.bind(interval);
+    return clearInterval.bind(null, interval);
   };
 
   useEffect(incrementClock);

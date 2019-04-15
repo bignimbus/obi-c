@@ -17,59 +17,35 @@ exports[`AppMenu #render authenticated user 1`] = `
       <header
         className="app-menu__header"
       >
-        <div>
-          <span
-            className="
-      text
-      text--sm
-      
-      
-    "
+        <div
+          className="app-menu__badge-container profile-badge"
+        >
+          <div
+            className="profile-badge__container"
           >
-            Jeff
-          </span>
+            <div
+              className="profile-badge__img-container"
+              onClick={[Function]}
+              role="button"
+              tabIndex="0"
+            >
+              <img
+                alt="Jeff's profile picture"
+                className="profile-badge__img"
+                src="https://foo.bar"
+              />
+            </div>
+          </div>
         </div>
       </header>
       <section
-        className="app-menu__section"
+        className="app-menu__main"
       >
-        <ul
-          className="app-menu__ul"
+        <div
+          className="app-menu__command"
         >
-          <li
-            className="app-menu__li"
-          >
-            <a
-              className="text text--sm"
-              href="/remind"
-              onClick={[Function]}
-            >
-              Remind me
-            </a>
-          </li>
-          <li
-            className="app-menu__li"
-          >
-            <a
-              className="text text--sm"
-              href="/feed"
-              onClick={[Function]}
-            >
-              Feed obi-c
-            </a>
-          </li>
-          <li
-            className="app-menu__li"
-          >
-            <a
-              className="text text--sm"
-              href="/play"
-              onClick={[Function]}
-            >
-              Play with obi-c
-            </a>
-          </li>
-        </ul>
+          Command goes here
+        </div>
       </section>
     </nav>
   </div>
@@ -93,64 +69,64 @@ exports[`AppMenu #render authenticated user fetching data 1`] = `
       <header
         className="app-menu__header"
       >
-        <div>
-          <section>
-            <button
-              disabled={true}
-              onClick={[MockFunction]}
+        <div
+          className="app-menu__badge-container profile-badge"
+        >
+          <section
+            className="profile-badge__container"
+          >
+            <div
+              className="profile-badge__button-container"
             >
-              <span>
-                Connecting to Blockstack...
-              </span>
-            </button>
+              <button
+                className="
+      button
+      button--disabled
+    "
+                disabled={true}
+                onClick={[MockFunction]}
+              >
+                <div
+                  className="button__content-container"
+                >
+                  <span
+                    className="
+      text
+      text--sm
+      
+      
+    "
+                  >
+                    <span>
+                      Connecting...
+                    </span>
+                  </span>
+                </div>
+              </button>
+            </div>
           </section>
-          <footer>
-            <button>
+          <footer
+            className="profile-badge__learn-more-container"
+          >
+            <a
+              className="text text--sm"
+              href="https://blockstack.org/about/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               Learn more
-            </button>
+            </a>
           </footer>
         </div>
       </header>
       <section
-        className="app-menu__section"
+        className="app-menu__main"
       >
-        <ul
-          className="app-menu__ul"
+        <div
+          className="app-menu__command"
         >
-          <li
-            className="app-menu__li"
-          >
-            <a
-              className="text text--sm"
-              href="/remind"
-              onClick={[Function]}
-            >
-              Remind me
-            </a>
-          </li>
-          <li
-            className="app-menu__li"
-          >
-            <a
-              className="text text--sm"
-              href="/feed"
-              onClick={[Function]}
-            >
-              Feed obi-c
-            </a>
-          </li>
-          <li
-            className="app-menu__li"
-          >
-            <a
-              className="text text--sm"
-              href="/play"
-              onClick={[Function]}
-            >
-              Play with obi-c
-            </a>
-          </li>
-        </ul>
+          Command goes here
+        </div>
       </section>
     </nav>
   </div>
@@ -174,64 +150,64 @@ exports[`AppMenu #render unauthenticated user 1`] = `
       <header
         className="app-menu__header"
       >
-        <div>
-          <section>
-            <button
-              disabled={false}
-              onClick={[MockFunction]}
+        <div
+          className="app-menu__badge-container profile-badge"
+        >
+          <section
+            className="profile-badge__container"
+          >
+            <div
+              className="profile-badge__button-container"
             >
-              <span>
-                Connect to Blockstack
-              </span>
-            </button>
+              <button
+                className="
+      button
+      
+    "
+                disabled={false}
+                onClick={[MockFunction]}
+              >
+                <div
+                  className="button__content-container"
+                >
+                  <span
+                    className="
+      text
+      text--sm
+      
+      
+    "
+                  >
+                    <span>
+                      Connect to Blockstack
+                    </span>
+                  </span>
+                </div>
+              </button>
+            </div>
           </section>
-          <footer>
-            <button>
+          <footer
+            className="profile-badge__learn-more-container"
+          >
+            <a
+              className="text text--sm"
+              href="https://blockstack.org/about/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               Learn more
-            </button>
+            </a>
           </footer>
         </div>
       </header>
       <section
-        className="app-menu__section"
+        className="app-menu__main"
       >
-        <ul
-          className="app-menu__ul"
+        <div
+          className="app-menu__command"
         >
-          <li
-            className="app-menu__li"
-          >
-            <a
-              className="text text--sm"
-              href="/remind"
-              onClick={[Function]}
-            >
-              Remind me
-            </a>
-          </li>
-          <li
-            className="app-menu__li"
-          >
-            <a
-              className="text text--sm"
-              href="/feed"
-              onClick={[Function]}
-            >
-              Feed obi-c
-            </a>
-          </li>
-          <li
-            className="app-menu__li"
-          >
-            <a
-              className="text text--sm"
-              href="/play"
-              onClick={[Function]}
-            >
-              Play with obi-c
-            </a>
-          </li>
-        </ul>
+          Command goes here
+        </div>
       </section>
     </nav>
   </div>
