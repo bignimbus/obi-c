@@ -21,13 +21,21 @@
 .home__message {
   background-color: var(--theme-color--darker);
   bottom: 0;
+  max-width: 700px;
   position: absolute;
+  right: 50%;
+  transform: translateX(50%);
   width: 100%;
   z-index: 1;
 }
 
-.home__menu,
-.home__test-message {
+@media screen and (min-width: 768px) {
+  .home__message {
+    bottom: 32px;
+  }
+}
+
+.home__menu {
   display: none;
   height: 100%;
   left: 0;

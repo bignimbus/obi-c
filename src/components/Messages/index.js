@@ -5,13 +5,13 @@ import Button from '../Button';
 import ClockContext from '../../contexts/ClockContext';
 
 const ONBOARDING_MESSAGES = [
-  'Hello, there!  I am obi-c',
-  'I am still a work-in-progress, but I can still do a thing or two',
-  "Before we get to that, maybe you'd like to get to know me more",
-  'I am kind of a cross between a Tamagotchi and a digital assistant',
-  'When I am completed, you will be able to feed me',
-  'You will also be able to play with me',
-  'All of these things improve my mood and motivation',
+  'Hello, there!  I am obi-c.',
+  'I am a work-in-progress, but I can still do a thing or two.',
+  "Before we get to that, maybe you'd like to get to know me more.",
+  'I am kind of a cross between a Tamagotchi and a digital assistant.',
+  'When I am completed, you will be able to feed me.',
+  'You will also be able to play with me.',
+  'Eating and playing improve my mood and motivation...',
   'So that I can remember to do the things I am supposed to do as your assistant',
   'Speaking of assistance, you can tap anywhere on the grid to bring up a menu',
   'You can see that I am designed to use the blockstack service',
