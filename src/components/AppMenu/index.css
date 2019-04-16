@@ -21,6 +21,7 @@
 .app-menu__container {
   background-color: var(--theme-color--darker);
   flex: 0 1 auto;
+  max-width: 600px;
   padding: 8px;
   position: relative;
   z-index: 1;

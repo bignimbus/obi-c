@@ -5,14 +5,14 @@ exports[`Routes / 1`] = `
   className="home"
 >
   <section
-    aria-label="Tap anywhere to open menu"
     className="home__container"
-    onClick={[Function]}
-    role="button"
-    tabIndex="0"
   >
     <section
+      aria-label="Tap anywhere to open menu"
       className="home__grid"
+      onClick={[Function]}
+      role="button"
+      tabIndex="0"
     >
       <div
         className="
@@ -72137,8 +72137,1222 @@ exports[`Routes / 1`] = `
     <section
       className="home__message"
     >
-      <div>
-        <ul />
+      <div
+        className="
+        messages
+        messages--show
+      "
+      >
+        <ul
+          className="messages__ul"
+        >
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  Hello, there!  I am obi-c
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  I am still a work-in-progress, but I can still do a thing or two
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  Before we get to that, maybe you'd like to get to know me more
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  I am kind of a cross between a Tamagotchi and a digital assistant
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  When I am completed, you will be able to feed me
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  You will also be able to play with me
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  All of these things improve my mood and motivation
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  So that I can remember to do the things I am supposed to do as your assistant
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  Speaking of assistance, you can tap anywhere on the grid to bring up a menu
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  You can see that I am designed to use the blockstack service
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  This ensures that whatever we do here on your phone or computer
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  Gets saved into your own, secure, personal data locker
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  So that nothing gets forgotten on any of your devices
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  This cloud functionality is still not implemented, so stay tuned
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  You can also tell me to do things using the text box
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  Right now I'm a modest assistant, I can only remind you to do things
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  Try typing, "remind me to check obi-c in one minute"
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  It was nice meeting you!
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+        </ul>
       </div>
     </section>
   </section>
@@ -72231,6 +73445,7 @@ exports[`Routes / 1`] = `
                   <div>
                     <section>
                       <textarea
+                        autoComplete="off"
                         className=" command__textarea text text--lg text--inverted-darker "
                         id="command-text"
                         name="command-text"
@@ -72290,14 +73505,14 @@ exports[`Routes /menu 1`] = `
   className="home"
 >
   <section
-    aria-label="Tap anywhere to open menu"
     className="home__container"
-    onClick={[Function]}
-    role="button"
-    tabIndex="0"
   >
     <section
+      aria-label="Tap anywhere to open menu"
       className="home__grid"
+      onClick={[Function]}
+      role="button"
+      tabIndex="0"
     >
       <div
         className="
@@ -144422,8 +145637,1222 @@ exports[`Routes /menu 1`] = `
     <section
       className="home__message"
     >
-      <div>
-        <ul />
+      <div
+        className="
+        messages
+        messages--show
+      "
+      >
+        <ul
+          className="messages__ul"
+        >
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  Hello, there!  I am obi-c
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  I am still a work-in-progress, but I can still do a thing or two
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  Before we get to that, maybe you'd like to get to know me more
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  I am kind of a cross between a Tamagotchi and a digital assistant
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  When I am completed, you will be able to feed me
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  You will also be able to play with me
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  All of these things improve my mood and motivation
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  So that I can remember to do the things I am supposed to do as your assistant
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  Speaking of assistance, you can tap anywhere on the grid to bring up a menu
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  You can see that I am designed to use the blockstack service
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  This ensures that whatever we do here on your phone or computer
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  Gets saved into your own, secure, personal data locker
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  So that nothing gets forgotten on any of your devices
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  This cloud functionality is still not implemented, so stay tuned
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  You can also tell me to do things using the text box
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  Right now I'm a modest assistant, I can only remind you to do things
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  Try typing, "remind me to check obi-c in one minute"
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+          <li
+            className="messages__li"
+          >
+            <section
+              className="messages__content"
+            >
+              <h2
+                className="messages__heading"
+              >
+                <span
+                  className="
+      text
+      text--md
+      
+      
+    "
+                >
+                  Message
+                </span>
+              </h2>
+              <p
+                className="messages__body"
+              >
+                <span
+                  className="
+      text
+      text--sm
+      
+      
+    "
+                >
+                  It was nice meeting you!
+                </span>
+              </p>
+            </section>
+            <footer
+              className="messages__footer"
+            >
+              <div
+                className="messages__button-container"
+              >
+                <button
+                  className="
+      button
+      
+    "
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <div
+                    className="button__content-container"
+                  >
+                    <span
+                      className="
+      text
+      text--sm
+      
+      
+    "
+                    >
+                      OK
+                    </span>
+                  </div>
+                </button>
+              </div>
+            </footer>
+          </li>
+        </ul>
       </div>
     </section>
   </section>
@@ -144516,6 +146945,7 @@ exports[`Routes /menu 1`] = `
                   <div>
                     <section>
                       <textarea
+                        autoComplete="off"
                         className=" command__textarea text text--lg text--inverted-darker "
                         id="command-text"
                         name="command-text"

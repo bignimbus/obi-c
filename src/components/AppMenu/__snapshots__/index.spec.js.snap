@@ -57,6 +57,7 @@ exports[`AppMenu #render authenticated user 1`] = `
               <div>
                 <section>
                   <textarea
+                    autoComplete="off"
                     className=" command__textarea text text--lg text--inverted-darker "
                     id="command-text"
                     name="command-text"
@@ -196,6 +197,7 @@ exports[`AppMenu #render authenticated user fetching data 1`] = `
               <div>
                 <section>
                   <textarea
+                    autoComplete="off"
                     className=" command__textarea text text--lg text--inverted-darker "
                     id="command-text"
                     name="command-text"
@@ -335,6 +337,7 @@ exports[`AppMenu #render unauthenticated user 1`] = `
               <div>
                 <section>
                   <textarea
+                    autoComplete="off"
                     className=" command__textarea text text--lg text--inverted-darker "
                     id="command-text"
                     name="command-text"

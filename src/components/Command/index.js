@@ -68,6 +68,7 @@ const Command = ({ history, autoFocus }) => {
               ref={textarea}
               value={rawText}
               id='command-text'
+              autoComplete='off'
               name='command-text'
               onChange={updateText}
               placeholder='Remind me to try this out in one minute'

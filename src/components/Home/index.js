@@ -13,16 +13,16 @@ const Home = ({
   appMenuOpen,
 }) => (
   <div className='home'>
-    <section
-      role='button'
-      tabIndex='0'
-      className='home__container'
-      aria-label='Tap anywhere to open menu'
-      onClick={() => {
-        history.replace('/menu');
-      }}
-    >
-      <section className='home__grid'>
+    <section className='home__container'>
+      <section
+        tabIndex='0'
+        role='button'
+        className='home__grid'
+        aria-label='Tap anywhere to open menu'
+        onClick={() => {
+          history.replace('/menu');
+        }}
+      >
         <AvatarGrid />
       </section>
       <section className='home__message'>
