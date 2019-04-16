@@ -3,22 +3,51 @@ import React, {
   useState,
   createRef,
   useEffect,
+  useContext,
 } from 'react';
 import PropTypes from 'prop-types';
+import debounce from 'lodash/debounce';
+import { withRouter } from 'react-router-dom';
 import Text from '../Text';
 import Button from '../Button';
+import ClockContext from '../../contexts/ClockContext';
+import { default as RemindPlugin } from '../../plugins/Remind';
 
-const Command = ({ autoFocus }) => {
+const Command = ({ history, autoFocus }) => {
+  const { addEvent } = useContext(ClockContext);
   const textarea = createRef(null);
   const [rawText, setRawText] = useState('');
+  const [command, setCommand] = useState(null);
 
-  const updateRawText = (e) => {
+  const preprocessText = () => {
+    const preprocessedText = new RemindPlugin({ addEvent, rawText }).getPreProcessedText();
+    setCommand(
+      preprocessedText
+        .map(({ command }) => command)
+        .filter(cmd => cmd)[0] || null,
+    );
+  };
+
+  const debouncedPreprocessText = debounce(preprocessText, 200);
+
+  const normalizeRawText = str => str.replace(/^\s+/, '').replace(/\n/g, ' ');
+
+  const updateText = (e) => {
     const { value } = e.target;
-    setRawText(value.replace(/\n/g, ' '));
+    setRawText(normalizeRawText(value));
+    debouncedPreprocessText();
   };
 
   const onSubmitForm = (e) => {
     e.preventDefault();
+    const { value } = e.target.elements['command-text'];
+    const remind = new RemindPlugin({ addEvent, rawText: normalizeRawText(value) });
+    const success = remind.execute();
+    setRawText('');
+    setCommand(null);
+    if (success) {
+      history.replace('/');
+    }
   };
 
   useEffect(() => {
@@ -40,7 +69,7 @@ const Command = ({ autoFocus }) => {
               value={rawText}
               id='command-text'
               name='command-text'
-              onChange={updateRawText}
+              onChange={updateText}
               placeholder='Remind me to try this out in one minute'
               className='
                 command__textarea
@@ -54,10 +83,10 @@ const Command = ({ autoFocus }) => {
             <div className='command__button-container'>
               <Button
                 type='submit'
-                disabled={!rawText}
+                disabled={!command}
               >
                 <Text>
-                  OK
+                  { command || <span>&nbsp;</span> }
                 </Text>
               </Button>
             </div>
@@ -70,6 +99,11 @@ const Command = ({ autoFocus }) => {
 
 Command.propTypes = {
   autoFocus: PropTypes.bool,
+  history: PropTypes.shape({
+    replace: PropTypes.func.isRequired,
+  }).isRequired,
 };
 
-export default Command;
+const CommandContainer = withRouter(Command);
+
+export default CommandContainer;

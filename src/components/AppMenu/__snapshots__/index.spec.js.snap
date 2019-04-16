@@ -91,7 +91,9 @@ exports[`AppMenu #render authenticated user 1`] = `
       
     "
                         >
-                          OK
+                          <span>
+                             
+                          </span>
                         </span>
                       </div>
                     </button>
@@ -228,7 +230,9 @@ exports[`AppMenu #render authenticated user fetching data 1`] = `
       
     "
                         >
-                          OK
+                          <span>
+                             
+                          </span>
                         </span>
                       </div>
                     </button>
@@ -365,7 +369,9 @@ exports[`AppMenu #render unauthenticated user 1`] = `
       
     "
                         >
-                          OK
+                          <span>
+                             
+                          </span>
                         </span>
                       </div>
                     </button>

@@ -1,6 +1,8 @@
 import { parse } from 'chrono-node';
 import Plugin from '../Plugin';
 
+const NAME = 'Set reminder';
+
 class Remind extends Plugin {
   getPreProcessedText () {
     const { rawText } = this;
@@ -14,7 +16,7 @@ class Remind extends Plugin {
     return match ? [
         {
           text: match[0],
-          command: true,
+          command: NAME,
         }, {
           command: false,
           text: rawText.slice(match[0].length),
@@ -35,7 +37,7 @@ class Remind extends Plugin {
       return false;
     }
     const { text, start } = result;
-    this.user.addEvent({
+    this.addEvent({
       startTime: start.date(),
       description: textToParse.replace(text, '').trim(),
     });

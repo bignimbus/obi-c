@@ -10,7 +10,7 @@ describe('Remind plugin', () => {
       }).getPreProcessedText()
     ).toEqual([
       {
-        command: true,
+        command: 'Set reminder',
         text: 'remind me to',
       }, {
         command: false,
@@ -26,7 +26,7 @@ describe('Remind plugin', () => {
       }).getPreProcessedText()
     ).toEqual([
       {
-        command: true,
+        command: 'Set reminder',
         text: 'remind me',
       }, {
         command: false,
@@ -42,7 +42,7 @@ describe('Remind plugin', () => {
       }).getPreProcessedText()
     ).toEqual([
       {
-        command: true,
+        command: 'Set reminder',
         text: 'reminder to',
       }, {
         command: false,
@@ -58,7 +58,7 @@ describe('Remind plugin', () => {
       }).getPreProcessedText()
     ).toEqual([
       {
-        command: true,
+        command: 'Set reminder',
         text: 'reminder',
       }, {
         command: false,
@@ -74,7 +74,7 @@ describe('Remind plugin', () => {
       }).getPreProcessedText()
     ).toEqual([
       {
-        command: true,
+        command: 'Set reminder',
         text: 'remind',
       }, {
         command: false,
@@ -100,7 +100,7 @@ describe('Remind plugin', () => {
     const user = stubValidUser();
     expect(user.events).toHaveLength(0);
     const remind = new Remind({
-      user,
+      addEvent: user.addEvent.bind(user),
       rawText: 'remind me to check in to my flight at 6:00 am',
     });
     expect(remind.execute()).toBe(true);
@@ -117,7 +117,7 @@ describe('Remind plugin', () => {
     const user = stubValidUser();
     expect(user.events).toHaveLength(0);
     const remind = new Remind({
-      user,
+      addEvent: user.addEvent.bind(user),
       rawText: 'remind me that this is not a real thing',
     });
     expect(remind.execute()).toBe(false);

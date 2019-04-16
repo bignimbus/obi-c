@@ -1,14 +1,17 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { MemoryRouter } from 'react-router-dom';
+import ClockContext from '../../contexts/ClockContext';
 import BlockstackContext from '../../contexts/BlockstackContext';
 import { default as AppMenu } from '.';
 
 const renderComponent = contextValue => renderer.create(
   <BlockstackContext.Provider value={contextValue}>
-    <MemoryRouter>
-      <AppMenu />
-    </MemoryRouter>
+    <ClockContext.Provider value={{ addEvent: jest.fn() }}>
+      <MemoryRouter>
+        <AppMenu />
+      </MemoryRouter>
+    </ClockContext.Provider>
   </BlockstackContext.Provider>,
 );
 

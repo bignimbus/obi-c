@@ -72265,7 +72265,9 @@ exports[`Home #render app menu is closed 1`] = `
       
     "
                             >
-                              OK
+                              <span>
+                                 
+                              </span>
                             </span>
                           </div>
                         </button>
@@ -144548,7 +144550,9 @@ exports[`Home #render app menu is open 1`] = `
       
     "
                             >
-                              OK
+                              <span>
+                                 
+                              </span>
                             </span>
                           </div>
                         </button>
